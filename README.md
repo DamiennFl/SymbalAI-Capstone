@@ -1,3 +1,6 @@
+<img width="1223" height="919" alt="image" src="https://github.com/user-attachments/assets/006192eb-615b-401e-84b4-111d5c6c2939" />
+
+
 # Project Name
 Symbal Jr: AI-Powered Response Authenticity Detection for Hiring
 
