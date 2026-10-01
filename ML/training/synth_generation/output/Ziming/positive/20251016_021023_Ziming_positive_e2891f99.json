@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2539215981,
+    "answer": 2370757377
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 781,
+  "answer_text": "I've successfully used the Zymoprep kit, but only for smaller plasmids in 2-hybrid experiments. So their cell lysis enzyme/buffer system works well, but I'd guess that your 42kb plasmid is precipitating out with the genomic DNA. The standard Qiagen midi columns are capable of capturing large constructs. This has worked wonders for me when I was - and gets the cost down to $10/sample (it does require additional buffer, but that's a minor expense). It might be worth trying the for the midi kit and see if you can isolate your large plasmid?",
+  "instruction_text": "Talk like youre thinking aloud. Occasional small pauses, shifting tempo, and mild contours.",
+  "parameters_text": "male voice, early twenties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 23,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "bright_voice",
+      "precise_articulation",
+      "slow_voice"
+    ],
+    "style_params": {
+      "rate": 1.03,
+      "pitch_semitones": -0.39,
+      "micro_break_ms": 144,
+      "sentence_break_ms": 470,
+      "intonation_variability": 0.311,
+      "energy_variability": 0.238
+    }
+  },
+  "voice_ref": {
+    "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+    "name": "svy_0038ae2a7c",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+    "created_at": 1760580583
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I've successfully used the Zymoprep kit, but only for smaller plasmids in 2-hybrid experiments. So their cell lysis enzyme/buffer system works well, but I'd guess that your 42kb plasmid is precipitating out with the genomic DNA. The standard Qiagen midi columns are capable of capturing large constructs. This has worked wonders for me when I was - and gets the cost down to $10/sample (it does require additional buffer, but that's a minor expense). It might be worth trying the for the midi kit and see if you can isolate your large plasmid?",
+        "description": "Talk like youre thinking aloud. Occasional small pauses, shifting tempo, and mild contours.",
+        "speed": 1.004408392018173,
+        "trailing_silence": 0.207856639417221,
+        "voice": {
+          "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771374275",
+    "generation_id": "18071847-2ace-4ba2-96dd-189f6c33676b",
+    "duration_s": 27.952417,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 447744,
+    "elapsed_sec": 6.949,
+    "model_version": "1",
+    "used_voice": {
+      "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+      "name": "svy_0038ae2a7c",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+      "created_at": 1760580583
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021023_Ziming_positive_e2891f99.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021023_Ziming_positive_e2891f99_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:10:23.412118Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 27.984,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021023_Ziming_positive_e2891f99.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021023_Ziming_positive_e2891f99_aug.wav"
+  }
+}

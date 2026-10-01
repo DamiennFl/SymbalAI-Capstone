@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 38101025,
+    "answer": 422139344
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1479,
+  "answer_text": "This is usually a. You can write wonderfully efficient, readable and maintainable code. You can write wonderfully inefficient, unmaintainable piles of mess. When dealing with performance issues, I usually try to think about the business problem I am solving. How will my software behave when my customers use it. Will my applications performance make?",
+  "instruction_text": "Matter-of-fact read. No swelling or softening; identical comma spacing; straight line pitch.",
+  "parameters_text": "male voice, fifties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 52,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "deep_voice",
+      "high_energy",
+      "slurred_articulation"
+    ],
+    "style_params": {
+      "rate": 1.245,
+      "pitch_semitones": -1.74,
+      "micro_break_ms": 121,
+      "sentence_break_ms": 600,
+      "intonation_variability": 0.064,
+      "energy_variability": 0.111
+    }
+  },
+  "voice_ref": {
+    "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+    "name": "svy_2c483d1937",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+    "created_at": 1760581761
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "This is usually a. You can write wonderfully efficient, readable and maintainable code. You can write wonderfully inefficient, unmaintainable piles of mess. When dealing with performance issues, I usually try to think about the business problem I am solving. How will my software behave when my customers use it. Will my applications performance make?",
+        "description": "Matter-of-fact read. No swelling or softening; identical comma spacing; straight line pitch.",
+        "speed": 1.4,
+        "trailing_silence": 0.06673112804460564,
+        "voice": {
+          "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771385960",
+    "generation_id": "80cd2680-fdaa-4c9e-a974-638029a6ef84",
+    "duration_s": 17.373396,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 278400,
+    "elapsed_sec": 5.239,
+    "model_version": "1",
+    "used_voice": {
+      "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+      "name": "svy_2c483d1937",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+      "created_at": 1760581761
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024209_Ziming_negative_65a4aa6b.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024209_Ziming_negative_65a4aa6b_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:42:09.970257Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.4,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024209_Ziming_negative_65a4aa6b.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024209_Ziming_negative_65a4aa6b_aug.wav"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1553171873,
+    "answer": 899612903
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1004,
+  "answer_text": "If I understand your question right, than the answer to your problem is to correct the p-values accordingly to the number of hypothesis. For example Holm-Bonferoni corrections, where you sort the hypothesis (= your different models) by their p-value and reject those with a p samller than (desired p-value / index). More about the topic can be found on",
+  "instruction_text": "Low-variance narration. Fast tempo, identical clause breaks, and no natural conversational hesitation.",
+  "parameters_text": "male voice, early sixties \u2014 light New York accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 58,
+    "accent": "US New York",
+    "features": [
+      "deep_voice"
+    ],
+    "style_params": {
+      "rate": 1.142,
+      "pitch_semitones": -1.63,
+      "micro_break_ms": 95,
+      "sentence_break_ms": 631,
+      "intonation_variability": 0.051,
+      "energy_variability": 0.119
+    }
+  },
+  "voice_ref": {
+    "id": "e112fd01-68b6-4864-a7dd-d774b74cce15",
+    "name": "svy_de176c1125",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early sixties, light New York accent; neutral timbre.",
+    "created_at": 1760582632
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "If I understand your question right, than the answer to your problem is to correct the p-values accordingly to the number of hypothesis. For example Holm-Bonferoni corrections, where you sort the hypothesis (= your different models) by their p-value and reject those with a p samller than (desired p-value / index). More about the topic can be found on",
+        "description": "Low-variance narration. Fast tempo, identical clause breaks, and no natural conversational hesitation.",
+        "speed": 1.3804421682958785,
+        "trailing_silence": 0.07827941260617383,
+        "voice": {
+          "id": "e112fd01-68b6-4864-a7dd-d774b74cce15"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771387209",
+    "generation_id": "3cdf2d1b-7c11-4554-ae89-6d35e02d219f",
+    "duration_s": 17.104938,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 274176,
+    "elapsed_sec": 5.096,
+    "model_version": "1",
+    "used_voice": {
+      "id": "e112fd01-68b6-4864-a7dd-d774b74cce15",
+      "name": "svy_de176c1125",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early sixties, light New York accent; neutral timbre.",
+      "created_at": 1760582632
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024426_Ziming_negative_d1c26faf.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024426_Ziming_negative_d1c26faf_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:44:26.207320Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.136,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024426_Ziming_negative_d1c26faf.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_024426_Ziming_negative_d1c26faf_aug.wav"
+  }
+}

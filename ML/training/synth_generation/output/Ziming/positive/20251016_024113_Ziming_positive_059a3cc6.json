@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2478329978,
+    "answer": 2255764468
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1328,
+  "answer_text": "I know almost nothing about signal analysis, but 2-dimensional visualization could be easily done using R. Particularly you will need and packages. Assuming your data is wide (e.g. [n X 256] size), first you need to transform it to format using function from package. Then use geometry from. Here is a nice with.",
+  "instruction_text": "Everyday speech pattern. Slightly uneven rhythm is fine; use tone for nuance.",
+  "parameters_text": "male voice, early twenties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 25,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "high_energy",
+      "likes_to_pause"
+    ],
+    "style_params": {
+      "rate": 1.002,
+      "pitch_semitones": 0.03,
+      "micro_break_ms": 214,
+      "sentence_break_ms": 371,
+      "intonation_variability": 0.263,
+      "energy_variability": 0.208
+    }
+  },
+  "voice_ref": {
+    "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+    "name": "svy_0038ae2a7c",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+    "created_at": 1760580583
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I know almost nothing about signal analysis, but 2-dimensional visualization could be easily done using R. Particularly you will need and packages. Assuming your data is wide (e.g. [n X 256] size), first you need to transform it to format using function from package. Then use geometry from. Here is a nice with.",
+        "description": "Everyday speech pattern. Slightly uneven rhythm is fine; use tone for nuance.",
+        "speed": 0.995628823863242,
+        "trailing_silence": 0.21373565940567146,
+        "voice": {
+          "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11365108",
+    "generation_id": "d21d6b62-79cc-4126-85d5-a7a344b9366a",
+    "duration_s": 18.360292,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 294528,
+    "elapsed_sec": 5.226,
+    "model_version": "1",
+    "used_voice": {
+      "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+      "name": "svy_0038ae2a7c",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+      "created_at": 1760580583
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024113_Ziming_positive_059a3cc6.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024113_Ziming_positive_059a3cc6_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:41:13.818688Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 18.408,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024113_Ziming_positive_059a3cc6.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024113_Ziming_positive_059a3cc6_aug.wav"
+  }
+}

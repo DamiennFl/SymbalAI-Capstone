@@ -1,0 +1,88 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3827050328,
+    "answer": 212717386
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1656,
+  "answer_text": "namespace syntax in PHP The syntax is not only ugly, it leads to confusion when newer developers have to think about namespaces in strings. (PHP interpolates backslashes in double-quoted strings as escape sequences. Trying to represent a namespace like in a double-quoted string instead of a single-quoted string will lead to newlines, tabs and disaster.)",
+  "instruction_text": "Warm explanation. Breath where needed, shape phrases, and avoid metronomic timing.",
+  "parameters_text": "female voice, mid thirties \u2014 light New York accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 36,
+    "accent": "US New York",
+    "features": [],
+    "style_params": {
+      "rate": 0.997,
+      "pitch_semitones": -0.47,
+      "micro_break_ms": 124,
+      "sentence_break_ms": 495,
+      "intonation_variability": 0.329,
+      "energy_variability": 0.125
+    }
+  },
+  "voice_ref": {
+    "id": "d6cbf17c-f86c-469c-b16b-de48858e164b",
+    "name": "svy_e188a3b2f8",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, mid thirties, light New York accent; neutral timbre.",
+    "created_at": 1760584202
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "namespace syntax in PHP The syntax is not only ugly, it leads to confusion when newer developers have to think about namespaces in strings. (PHP interpolates backslashes in double-quoted strings as escape sequences. Trying to represent a namespace like in a double-quoted string instead of a single-quoted string will lead to newlines, tabs and disaster.)",
+        "description": "Warm explanation. Breath where needed, shape phrases, and avoid metronomic timing.",
+        "speed": 0.9296574021923124,
+        "trailing_silence": 0.27240222221747246,
+        "voice": {
+          "id": "d6cbf17c-f86c-469c-b16b-de48858e164b"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771397045",
+    "generation_id": "77d510f8-0124-43ee-956c-2ff28dcebd17",
+    "duration_s": 22.459,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 359808,
+    "elapsed_sec": 6.117,
+    "model_version": "1",
+    "used_voice": {
+      "id": "d6cbf17c-f86c-469c-b16b-de48858e164b",
+      "name": "svy_e188a3b2f8",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, mid thirties, light New York accent; neutral timbre.",
+      "created_at": 1760584202
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031037_Ziming_positive_aba32dea.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031037_Ziming_positive_aba32dea_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:10:37.659124Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 22.488,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031037_Ziming_positive_aba32dea.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031037_Ziming_positive_aba32dea_aug.wav"
+  }
+}

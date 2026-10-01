@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 999062597,
+    "answer": 93618216
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1419,
+  "answer_text": "If you have enough data, use cross validation. If you don't have a lot of data, use cross validation on a similar dataset, and transfer the window size (the UCR archive has a bunch of similar dataset) Don't forget, that the best warping window size depends on the amount of training data. As you get more data, you can have a smaller warping window, see fig 6 of eamonn",
+  "instruction_text": "Answer naturally, like real conversation. Vary pace and tone, add brief thoughtful pauses, and emphasize key words lightly.",
+  "parameters_text": "female voice, early forties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 42,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "bright_voice",
+      "deep_voice",
+      "fast_voice"
+    ],
+    "style_params": {
+      "rate": 0.97,
+      "pitch_semitones": 0.12,
+      "micro_break_ms": 116,
+      "sentence_break_ms": 556,
+      "intonation_variability": 0.165,
+      "energy_variability": 0.16
+    }
+  },
+  "voice_ref": {
+    "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0",
+    "name": "svy_32f2ed6b36",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early forties, General American accent; neutral timbre.",
+    "created_at": 1760567766
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "If you have enough data, use cross validation. If you don't have a lot of data, use cross validation on a similar dataset, and transfer the window size (the UCR archive has a bunch of similar dataset) Don't forget, that the best warping window size depends on the amount of training data. As you get more data, you can have a smaller warping window, see fig 6 of eamonn",
+        "description": "Answer naturally, like real conversation. Vary pace and tone, add brief thoughtful pauses, and emphasize key words lightly.",
+        "speed": 0.9,
+        "trailing_silence": 0.3008370787907838,
+        "voice": {
+          "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11268152",
+    "generation_id": "8fd3e508-01ae-437c-b780-79a9395f52b7",
+    "duration_s": 22.5275,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 360960,
+    "elapsed_sec": 5.709,
+    "model_version": "1",
+    "used_voice": {
+      "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0",
+      "name": "svy_32f2ed6b36",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early forties, General American accent; neutral timbre.",
+      "created_at": 1760567766
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_225349_Ziming_positive_09df7f23.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_225349_Ziming_positive_09df7f23_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:53:49.442563Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 22.56,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_225349_Ziming_positive_09df7f23.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_225349_Ziming_positive_09df7f23_aug.wav"
+  }
+}

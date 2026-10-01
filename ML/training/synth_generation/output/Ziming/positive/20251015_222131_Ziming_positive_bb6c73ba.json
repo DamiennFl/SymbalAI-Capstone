@@ -1,0 +1,97 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 4091779641,
+    "answer": 2696571032
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1440,
+  "answer_text": "I personally like to use tabs in everything, since each developer can control the amount of indentation per tab. That way you get flexibility in display. That being said, I usually mimic whatever coding style is in the file to start with (since I spend a lot of time doing maintenance work).",
+  "instruction_text": "Professional but human. Short pauses between ideas, gentle inflection, and flexible pacing.",
+  "parameters_text": "male voice, early forties \u2014 light Western European accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 38,
+    "accent": "Western European English",
+    "features": [
+      "bright_voice",
+      "high_energy"
+    ],
+    "style_params": {
+      "rate": 1.006,
+      "pitch_semitones": 0.1,
+      "micro_break_ms": 79,
+      "sentence_break_ms": 559,
+      "intonation_variability": 0.272,
+      "energy_variability": 0.202
+    }
+  },
+  "voice_ref": {
+    "id": "ec576892-99a0-43a5-a081-99112fcf6af7",
+    "name": "svy_ede18cdf15",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early forties, light Western European accent; neutral timbre.",
+    "created_at": 1760566863
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I personally like to use tabs in everything, since each developer can control the amount of indentation per tab. That way you get flexibility in display. That being said, I usually mimic whatever coding style is in the file to start with (since I spend a lot of time doing maintenance work).",
+        "description": "Professional but human. Short pauses between ideas, gentle inflection, and flexible pacing.",
+        "speed": 1.0370831408165984,
+        "trailing_silence": 0.28224126043595266,
+        "voice": {
+          "id": "ec576892-99a0-43a5-a081-99112fcf6af7"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771268047",
+    "generation_id": "9ac7381a-ed23-4aa4-b727-16e8082a4da9",
+    "duration_s": 17.548896,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 281472,
+    "elapsed_sec": 4.857,
+    "model_version": "1",
+    "used_voice": {
+      "id": "ec576892-99a0-43a5-a081-99112fcf6af7",
+      "name": "svy_ede18cdf15",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early forties, light Western European accent; neutral timbre.",
+      "created_at": 1760566863
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222131_Ziming_positive_bb6c73ba.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222131_Ziming_positive_bb6c73ba_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:21:31.519545Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.592,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222131_Ziming_positive_bb6c73ba.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222131_Ziming_positive_bb6c73ba_aug.wav"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "seed": 434659573,
+  "intensity": "med",
+  "applied": [
+    {
+      "effect": "noise",
+      "color": 0,
+      "snr_db": 14.24
+    }
+  ],
+  "sr": 48000,
+  "length_sec": 14.592,
+  "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af.mp3",
+  "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af_aug.wav"
+}

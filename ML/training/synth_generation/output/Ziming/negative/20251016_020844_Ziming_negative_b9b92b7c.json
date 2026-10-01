@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3650578126,
+    "answer": 1275422010
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 786,
+  "answer_text": "Composition of E. coli (dry weight): 55% protein, 20% RNA, 10% lipid, 15% other Protein concentration is about 100 mg/ml or 3 mM. From the size of an E. coli cell, 1 nM is about 1 molecule/cell. This is ~1000 molecules/cell for HeLa cells. Diffusion coefficient for an \"average\" protein: D ~ 5-15 microns^2/s, or ~10 ms to traverse an E. coli. For reference, a small metabolite in water diffuses about 30-100x faster. Reference:",
+  "instruction_text": "Lean, efficient cadence. Avoid rhetorical shaping and keep a tight, steady tempo.",
+  "parameters_text": "female voice, late twenties \u2014 light Canadian accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 27,
+    "accent": "Canadian English",
+    "features": [
+      "bright_voice",
+      "low_energy"
+    ],
+    "style_params": {
+      "rate": 1.203,
+      "pitch_semitones": -1.5,
+      "micro_break_ms": 130,
+      "sentence_break_ms": 613,
+      "intonation_variability": 0.13,
+      "energy_variability": 0.07
+    }
+  },
+  "voice_ref": {
+    "id": "91d7e5bf-fe6c-46f4-ba42-3bbdee878ff1",
+    "name": "svy_424f2dff2b",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, late twenties, light Canadian accent; neutral timbre.",
+    "created_at": 1760580491
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Composition of E. coli (dry weight): 55% protein, 20% RNA, 10% lipid, 15% other Protein concentration is about 100 mg/ml or 3 mM. From the size of an E. coli cell, 1 nM is about 1 molecule/cell. This is ~1000 molecules/cell for HeLa cells. Diffusion coefficient for an \"average\" protein: D ~ 5-15 microns^2/s, or ~10 ms to traverse an E. coli. For reference, a small metabolite in water diffuses about 30-100x faster. Reference:",
+        "description": "Lean, efficient cadence. Avoid rhetorical shaping and keep a tight, steady tempo.",
+        "speed": 1.3758217998938183,
+        "trailing_silence": 0.029423380571158883,
+        "voice": {
+          "id": "91d7e5bf-fe6c-46f4-ba42-3bbdee878ff1"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771373817",
+    "generation_id": "ae8919ac-df44-4ea0-97c2-bed4593a1a3d",
+    "duration_s": 22.976083,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 368256,
+    "elapsed_sec": 5.737,
+    "model_version": "1",
+    "used_voice": {
+      "id": "91d7e5bf-fe6c-46f4-ba42-3bbdee878ff1",
+      "name": "svy_424f2dff2b",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, late twenties, light Canadian accent; neutral timbre.",
+      "created_at": 1760580491
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020844_Ziming_negative_b9b92b7c.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020844_Ziming_negative_b9b92b7c_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:08:44.022460Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 23.016,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020844_Ziming_negative_b9b92b7c.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020844_Ziming_negative_b9b92b7c_aug.wav"
+  }
+}

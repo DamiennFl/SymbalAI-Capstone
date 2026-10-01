@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3302361265,
+    "answer": 1215868332
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1720,
+  "answer_text": "As a rule of thumb: anywhere that blood is coming out, you should be assuming that pathogens can be transferred in. In this situation I would smear with antibiotic ointment and wrap with sterile gauze every day (and after every shower) until the cracking-and-bleeding-with-motion stops.",
+  "instruction_text": "Practical and plain. Maintain even pace, avoid emphasis, and keep micro-pauses to a minimum.",
+  "parameters_text": "female voice, early forties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 40,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "nasal",
+      "nonconsistent_tempo",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.135,
+      "pitch_semitones": -1.76,
+      "micro_break_ms": 103,
+      "sentence_break_ms": 677,
+      "intonation_variability": 0.122,
+      "energy_variability": 0.119
+    }
+  },
+  "voice_ref": {
+    "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0",
+    "name": "svy_32f2ed6b36",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early forties, General American accent; neutral timbre.",
+    "created_at": 1760567766
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "As a rule of thumb: anywhere that blood is coming out, you should be assuming that pathogens can be transferred in. In this situation I would smear with antibiotic ointment and wrap with sterile gauze every day (and after every shower) until the cracking-and-bleeding-with-motion stops.",
+        "description": "Practical and plain. Maintain even pace, avoid emphasis, and keep micro-pauses to a minimum.",
+        "speed": 1.2631155525278615,
+        "trailing_silence": 0.05773751692856241,
+        "voice": {
+          "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11262211",
+    "generation_id": "89f28bc9-ec22-4d82-819a-39fe9b9e287e",
+    "duration_s": 14.564396,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 233472,
+    "elapsed_sec": 4.786,
+    "model_version": "1",
+    "used_voice": {
+      "id": "284411fe-d5d9-4f5d-b0d5-0fa0ba4d18f0",
+      "name": "svy_32f2ed6b36",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early forties, General American accent; neutral timbre.",
+      "created_at": 1760567766
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:36:34.598307Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 14.592,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223634_Ziming_negative_7bb3f4af_aug.wav"
+  }
+}

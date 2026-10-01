@@ -1,0 +1,15 @@
+{
+  "seed": 225332,
+  "intensity": "low",
+  "applied": [
+    {
+      "effect": "noise",
+      "color": 0,
+      "snr_db": 21.81
+    }
+  ],
+  "length_sec": 3.816,
+  "sr": 48000,
+  "input_path": "/Users/vsevolodkovalev/SymbalAI/ML/training/synth_generation/auth_check.mp3",
+  "output_path": "/Users/vsevolodkovalev/SymbalAI/ML/training/synth_generation/_aug/aug_test.wav"
+}

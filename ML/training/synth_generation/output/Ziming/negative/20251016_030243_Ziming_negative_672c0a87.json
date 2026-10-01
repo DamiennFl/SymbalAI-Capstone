@@ -1,0 +1,92 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 214497753,
+    "answer": 3078081595
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 24,
+  "answer_text": "I believe this argument is based on the fact that intelligence is a single dimension when it really isn't. Are machines and humans really on the same level if a machine can solve a complex problem in a millionth of the time a human can? It also assumes that the Turing machine is still the best computational model for the time period that you are in, which is not necessarily true for the future, it is just true until this point in time.",
+  "instruction_text": "Sound like you are skimming notes aloud. Keep cadence steady, compress pauses, and remove natural rises and falls.",
+  "parameters_text": "male voice, early forties \u2014 light Hispanic-influenced accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 38,
+    "accent": "Hispanic-influenced US English",
+    "features": [
+      "deep_voice",
+      "likes_to_pause",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.23,
+      "pitch_semitones": -1.72,
+      "micro_break_ms": 108,
+      "sentence_break_ms": 744,
+      "intonation_variability": 0.094,
+      "energy_variability": 0.083
+    }
+  },
+  "voice_ref": {
+    "id": "da630eab-8b40-4cec-bf47-f397d07db388",
+    "name": "svy_a30bfe2090",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early forties, light Hispanic-influenced accent; neutral timbre.",
+    "created_at": 1760583734
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I believe this argument is based on the fact that intelligence is a single dimension when it really isn't. Are machines and humans really on the same level if a machine can solve a complex problem in a millionth of the time a human can? It also assumes that the Turing machine is still the best computational model for the time period that you are in, which is not necessarily true for the future, it is just true until this point in time.",
+        "description": "Sound like you are skimming notes aloud. Keep cadence steady, compress pauses, and remove natural rises and falls.",
+        "speed": 1.4,
+        "trailing_silence": 0.0543373290649604,
+        "voice": {
+          "id": "da630eab-8b40-4cec-bf47-f397d07db388"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771394359",
+    "generation_id": "32eb3dad-1eee-4baa-bd38-d0dc6bfb26c0",
+    "duration_s": 18.880958,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 302592,
+    "elapsed_sec": 5.236,
+    "model_version": "1",
+    "used_voice": {
+      "id": "da630eab-8b40-4cec-bf47-f397d07db388",
+      "name": "svy_a30bfe2090",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early forties, light Hispanic-influenced accent; neutral timbre.",
+      "created_at": 1760583734
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030243_Ziming_negative_672c0a87.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030243_Ziming_negative_672c0a87_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:02:43.580497Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 18.912,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030243_Ziming_negative_672c0a87.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030243_Ziming_negative_672c0a87_aug.wav"
+  }
+}

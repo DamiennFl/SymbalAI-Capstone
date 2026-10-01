@@ -1,0 +1,96 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 178350949,
+    "answer": 246452250
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 217,
+  "answer_text": "How to find the best configuration for an algorithm is an open research question in AI. The topic in general is known as hyper-parameter optimization' and there are a range of possible methods: One of the most popular is, but other possibilities include: argues that Spearmint performs the best, compared with SMAC and Hyperopt, but with significantly longer running times in some cases.",
+  "instruction_text": "Tight, monotone read. Remove warmth, reduce vibrato, and keep pauses minimal and repeatable.",
+  "parameters_text": "male voice, early thirties \u2014 light Texas accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 30,
+    "accent": "US Texas English",
+    "features": [
+      "nonconsistent_tempo"
+    ],
+    "style_params": {
+      "rate": 1.156,
+      "pitch_semitones": -1.66,
+      "micro_break_ms": 108,
+      "sentence_break_ms": 663,
+      "intonation_variability": 0.052,
+      "energy_variability": 0.06
+    }
+  },
+  "voice_ref": {
+    "id": "240de4cf-6e7b-4c18-a3fc-444d99fc958b",
+    "name": "svy_5637f2c76f",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early thirties, light Texas accent; neutral timbre.",
+    "created_at": 1760567125
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "How to find the best configuration for an algorithm is an open research question in AI. The topic in general is known as hyper-parameter optimization' and there are a range of possible methods: One of the most popular is, but other possibilities include: argues that Spearmint performs the best, compared with SMAC and Hyperopt, but with significantly longer running times in some cases.",
+        "description": "Tight, monotone read. Remove warmth, reduce vibrato, and keep pauses minimal and repeatable.",
+        "speed": 1.4,
+        "trailing_silence": 0.03632316908208576,
+        "voice": {
+          "id": "240de4cf-6e7b-4c18-a3fc-444d99fc958b"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771269181",
+    "generation_id": "209aa129-7b78-4cfb-8823-5ba2d90a0a80",
+    "duration_s": 17.502979,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 280704,
+    "elapsed_sec": 5.426,
+    "model_version": "1",
+    "used_voice": {
+      "id": "240de4cf-6e7b-4c18-a3fc-444d99fc958b",
+      "name": "svy_5637f2c76f",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early thirties, light Texas accent; neutral timbre.",
+      "created_at": 1760567125
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_222553_Ziming_negative_1489093c.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_222553_Ziming_negative_1489093c_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:25:53.098283Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.544,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_222553_Ziming_negative_1489093c.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_222553_Ziming_negative_1489093c_aug.wav"
+  }
+}

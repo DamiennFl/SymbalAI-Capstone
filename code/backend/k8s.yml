@@ -1,0 +1,120 @@
+# Deployment
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: <APPNAME>
+  namespace: <APPNAME>
+spec:
+  selector:
+    matchLabels:
+      app: <APPNAME>
+  template:
+    metadata:
+      labels:
+        app: <APPNAME>
+        # azure.workload.identity/use: 'true'
+    spec:
+      # serviceAccountName: <APPNAME>-service-account
+      containers:
+        - name: <APPNAME>
+          image: <REGISTRY>/<APPNAME>:<COMMIT_SHA>
+          envFrom:
+            - secretRef:
+                name: secret
+          env:
+            - name: NODE_ENV
+              value: production
+            # Telemetry configuration
+            - name: OTEL_EXPORTER_OTLP_ENDPOINT
+              value: "http://grafana-k8s-monitoring-alloy-receiver.grafana.svc.cluster.local:4317"
+            - name: OTEL_EXPORTER_OTLP_PROTOCOL
+              value: "grpc"
+            - name: OTEL_SERVICE_NAME
+              value: "<APPNAME>"
+            - name: OTEL_EXPORTER_OTLP_TIMEOUT
+              value: "5"
+            - name: OTEL_TRACES_SAMPLER
+              value: "parentbased_always_on"
+
+          ports:
+            - containerPort: 8000
+          resources:
+            limits:
+              cpu: "1"
+              memory: "2Gi"
+            requests:
+              cpu: "0.1"
+              memory: "1.5Gi"
+
+          livenessProbe:
+            httpGet:
+              path: /liveness
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 30
+            timeoutSeconds: 15
+            failureThreshold: 3
+            successThreshold: 1
+
+          readinessProbe:
+            httpGet:
+              path: /readiness
+              port: 8000
+            initialDelaySeconds: 10
+            periodSeconds: 20
+            timeoutSeconds: 3
+            failureThreshold: 3
+            successThreshold: 1
+
+# Service
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: <APPNAME>-service
+  namespace: <APPNAME>
+spec:
+  selector:
+    app: <APPNAME>
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+
+# # Dynamic scaling with KEDA
+# ---
+# apiVersion: keda.sh/v1alpha1
+# kind: ScaledObject
+# metadata:
+#   name: <APPNAME>
+#   namespace: <APPNAME>
+# spec:
+#   scaleTargetRef:
+#     name: <APPNAME>
+#   pollingInterval: 30 # Optional. Default: 30 seconds
+#   cooldownPeriod: 300 # Optional. Default: 300 seconds
+#   initialCooldownPeriod: 0 # Optional. Default: 0 seconds
+#   minReplicaCount: 2 # Optional. Default: 0
+#   maxReplicaCount: 100 # Optional. Default: 100
+#   triggers:
+#     - type: memory
+#       metricType: Utilization # Allowed types are 'Utilization' or 'AverageValue'
+#       metadata:
+#         value: "90"
+#     - type: cpu
+#       metricType: Utilization # Allowed types are 'Utilization' or 'AverageValue'
+#       metadata:
+#         value: "80"
+
+# Pod disruption budget, this ensures that pods are
+# disrupted one at a time during voluntary disruptions
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: <APPNAME>-pdb
+spec:
+  maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: <APPNAME>

@@ -1,0 +1,9 @@
+{
+  "seed": 426654490,
+  "intensity": "low",
+  "applied": [],
+  "sr": 48000,
+  "length_sec": 11.712,
+  "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_031702_Ziming_negative_c92e9604.mp3",
+  "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_031702_Ziming_negative_c92e9604_aug.wav"
+}

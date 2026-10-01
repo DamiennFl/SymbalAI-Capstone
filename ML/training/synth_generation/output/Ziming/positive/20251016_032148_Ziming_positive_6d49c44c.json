@@ -1,0 +1,91 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 696102958,
+    "answer": 3963171765
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 239,
+  "answer_text": "To quote the relevant: Feel free to look up that original paper, but to me the quote strongly suggests that the first record holder was a support vector machine. Edit As liori points out the quote is misleading: In the original paper Yann LeCun et al. actually tried a slew of methods and one version of ConvNet scored best . But according to the, after that initial paper, DeCoste and Scholkopf, MLJ 2002, reached an error of 0.56 with a SVM. So if that webpage is complete, the claim is still false.",
+  "instruction_text": "Explain with presence. Use tone to highlight points, natural breaks, and comfortable rhythm.",
+  "parameters_text": "male voice, early forties \u2014 light East Asian accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 42,
+    "accent": "East Asian English",
+    "features": [
+      "bright_voice",
+      "coarse_voice"
+    ],
+    "style_params": {
+      "rate": 1.017,
+      "pitch_semitones": 0.97,
+      "micro_break_ms": 174,
+      "sentence_break_ms": 351,
+      "intonation_variability": 0.279,
+      "energy_variability": 0.241
+    }
+  },
+  "voice_ref": {
+    "id": "c9a2708e-a855-40fb-a464-6b0a713a2b3b",
+    "name": "svy_37840adb3f",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early forties, light East Asian accent; neutral timbre.",
+    "created_at": 1760584863
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "To quote the relevant: Feel free to look up that original paper, but to me the quote strongly suggests that the first record holder was a support vector machine. Edit As liori points out the quote is misleading: In the original paper Yann LeCun et al. actually tried a slew of methods and one version of ConvNet scored best . But according to the, after that initial paper, DeCoste and Scholkopf, MLJ 2002, reached an error of 0.56 with a SVM. So if that webpage is complete, the claim is still false.",
+        "description": "Explain with presence. Use tone to highlight points, natural breaks, and comfortable rhythm.",
+        "speed": 1.0366751719053369,
+        "trailing_silence": 0.3026999153638406,
+        "voice": {
+          "id": "c9a2708e-a855-40fb-a464-6b0a713a2b3b"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771401155",
+    "generation_id": "c933d744-98b2-4320-891c-3c8f0fc2a867",
+    "duration_s": 29.329354,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 470016,
+    "elapsed_sec": 7.463,
+    "model_version": "1",
+    "used_voice": {
+      "id": "c9a2708e-a855-40fb-a464-6b0a713a2b3b",
+      "name": "svy_37840adb3f",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early forties, light East Asian accent; neutral timbre.",
+      "created_at": 1760584863
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032148_Ziming_positive_6d49c44c.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032148_Ziming_positive_6d49c44c_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:21:48.932178Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 29.376,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032148_Ziming_positive_6d49c44c.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032148_Ziming_positive_6d49c44c_aug.wav"
+  }
+}

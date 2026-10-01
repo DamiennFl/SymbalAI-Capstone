@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3136347647,
+    "answer": 3216665050
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1767,
+  "answer_text": "There are some downsides to eating whole-grain rice, primarily that brown rice has. The EPA's maximum contaminant level for arsenic is, and there's that the level of arsenic contamination in brown rice could be pushing up against that threshold. As far as I'm aware though, there haven't been any definitive studies on health outcomes for people consuming brown vs. white rice.",
+  "instruction_text": "Neutral desk read. Quick tempo, restrained dynamics, and standardized sentence boundaries.",
+  "parameters_text": "male voice, early thirties \u2014 light Scottish accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 31,
+    "accent": "Scottish English",
+    "features": [
+      "coarse_voice",
+      "nasal"
+    ],
+    "style_params": {
+      "rate": 1.122,
+      "pitch_semitones": -1.75,
+      "micro_break_ms": 116,
+      "sentence_break_ms": 712,
+      "intonation_variability": 0.055,
+      "energy_variability": 0.087
+    }
+  },
+  "voice_ref": {
+    "id": "0c83e71f-9689-44a5-a2cf-cefa38dd362a",
+    "name": "svy_34d85bc9ff",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early thirties, light Scottish accent; neutral timbre.",
+    "created_at": 1760581950
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "There are some downsides to eating whole-grain rice, primarily that brown rice has. The EPA's maximum contaminant level for arsenic is, and there's that the level of arsenic contamination in brown rice could be pushing up against that threshold. As far as I'm aware though, there haven't been any definitive studies on health outcomes for people consuming brown vs. white rice.",
+        "description": "Neutral desk read. Quick tempo, restrained dynamics, and standardized sentence boundaries.",
+        "speed": 1.3648017990665577,
+        "trailing_silence": 0.03876261544021868,
+        "voice": {
+          "id": "0c83e71f-9689-44a5-a2cf-cefa38dd362a"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771382177",
+    "generation_id": "9d4ea48a-05ad-4444-91f4-bb9a45618c64",
+    "duration_s": 16.065417,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 257664,
+    "elapsed_sec": 5.035,
+    "model_version": "1",
+    "used_voice": {
+      "id": "0c83e71f-9689-44a5-a2cf-cefa38dd362a",
+      "name": "svy_34d85bc9ff",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early thirties, light Scottish accent; neutral timbre.",
+      "created_at": 1760581950
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023259_Ziming_negative_49669891.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023259_Ziming_negative_49669891_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:32:59.939250Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 16.104,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023259_Ziming_negative_49669891.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023259_Ziming_negative_49669891_aug.wav"
+  }
+}

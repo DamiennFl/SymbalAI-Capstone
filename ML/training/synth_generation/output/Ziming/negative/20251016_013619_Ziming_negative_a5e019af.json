@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 309462882,
+    "answer": 1907624556
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1604,
+  "answer_text": "I think if it is a true beginner there's a good chance they don't know there is an error message at all. They only know it doesn't run and that there is an error. For example in Visual studio they may not see that part of the screen. Basically they don't know which part of the information they have available is useful to figure out what the problem is. If they did there would be a better chance they could fix it themselves and not ask about it in the first place.",
+  "instruction_text": "Fast, neutral read. Do not underline points; keep timing repetitive and controlled.",
+  "parameters_text": "female voice, early thirties \u2014 light New York accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 29,
+    "accent": "US New York",
+    "features": [
+      "fast_voice",
+      "mumbling"
+    ],
+    "style_params": {
+      "rate": 1.103,
+      "pitch_semitones": -1.78,
+      "micro_break_ms": 113,
+      "sentence_break_ms": 682,
+      "intonation_variability": 0.138,
+      "energy_variability": 0.092
+    }
+  },
+  "voice_ref": {
+    "id": "92242441-5037-4901-8f40-06ae5010c1ee",
+    "name": "svy_2db49e8010",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early thirties, light New York accent; neutral timbre.",
+    "created_at": 1760578547
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I think if it is a true beginner there's a good chance they don't know there is an error message at all. They only know it doesn't run and that there is an error. For example in Visual studio they may not see that part of the screen. Basically they don't know which part of the information they have available is useful to figure out what the problem is. If they did there would be a better chance they could fix it themselves and not ask about it in the first place.",
+        "description": "Fast, neutral read. Do not underline points; keep timing repetitive and controlled.",
+        "speed": 1.2499128159188382,
+        "trailing_silence": 0.03290955878991812,
+        "voice": {
+          "id": "92242441-5037-4901-8f40-06ae5010c1ee"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771358536",
+    "generation_id": "7cf80b68-343a-43a1-85b2-abe4cd388a49",
+    "duration_s": 20.259562,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 324864,
+    "elapsed_sec": 6.672,
+    "model_version": "1",
+    "used_voice": {
+      "id": "92242441-5037-4901-8f40-06ae5010c1ee",
+      "name": "svy_2db49e8010",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early thirties, light New York accent; neutral timbre.",
+      "created_at": 1760578547
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013619_Ziming_negative_a5e019af.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013619_Ziming_negative_a5e019af_aug.wav"
+  },
+  "created_utc": "2025-10-16T01:36:19.436155Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 20.304,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013619_Ziming_negative_a5e019af.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013619_Ziming_negative_a5e019af_aug.wav"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 765727172,
+    "answer": 3593258413
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1368,
+  "answer_text": "I'm not allowed to comment, but I have more a suggestion: you could try to implement some \"Over-sampling Techniques\" like SMOTE:",
+  "instruction_text": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+  "parameters_text": "male voice, early forties \u2014 light Scottish accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 42,
+    "accent": "Scottish English",
+    "features": [
+      "coarse_voice",
+      "likes_to_pause",
+      "nasal"
+    ],
+    "style_params": {
+      "rate": 1.037,
+      "pitch_semitones": 0.85,
+      "micro_break_ms": 175,
+      "sentence_break_ms": 469,
+      "intonation_variability": 0.251,
+      "energy_variability": 0.136
+    }
+  },
+  "voice_ref": {
+    "id": "110c47fc-b660-4947-90cd-3841f089c671",
+    "name": "svy_6a74652d37",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early forties, light Scottish accent; neutral timbre.",
+    "created_at": 1760580229
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I'm not allowed to comment, but I have more a suggestion: you could try to implement some \"Over-sampling Techniques\" like SMOTE:",
+        "description": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+        "speed": 1.0338062160707033,
+        "trailing_silence": 0.3492557847736981,
+        "voice": {
+          "id": "110c47fc-b660-4947-90cd-3841f089c671"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11352055",
+    "generation_id": "e804499e-5123-430b-8c1e-325600d894d4",
+    "duration_s": 7.415104,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 119040,
+    "elapsed_sec": 2.74,
+    "model_version": "1",
+    "used_voice": {
+      "id": "110c47fc-b660-4947-90cd-3841f089c671",
+      "name": "svy_6a74652d37",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early forties, light Scottish accent; neutral timbre.",
+      "created_at": 1760580229
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_020419_Ziming_positive_8e39adbd.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_020419_Ziming_positive_8e39adbd_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:04:19.026103Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 7.44,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_020419_Ziming_positive_8e39adbd.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_020419_Ziming_positive_8e39adbd_aug.wav"
+  }
+}

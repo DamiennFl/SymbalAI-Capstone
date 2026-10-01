@@ -1,0 +1,11 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: code/backend/Dockerfile
+    image: symbal_ai:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./code/backend/src:/app/src
+      - ./ML:/app/ML

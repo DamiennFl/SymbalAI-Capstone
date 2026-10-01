@@ -1,0 +1,90 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1118420873,
+    "answer": 3658272024
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1403,
+  "answer_text": "My initial recommendation would be to use the. NLTK offers methods for or, as well as methods for analyzing the. However, all of this requires a bit of programming. That's tricky. Have you looked into? I'm not exactly sure if/how GATE does what you want, but it does offer a GUI.",
+  "instruction_text": "Explain comfortably. Vary speed slightly, add brief pauses, and use tone for emphasis.",
+  "parameters_text": "female voice, early forties \u2014 light Texas accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 43,
+    "accent": "US Texas English",
+    "features": [
+      "deep_voice"
+    ],
+    "style_params": {
+      "rate": 1.017,
+      "pitch_semitones": -0.23,
+      "micro_break_ms": 189,
+      "sentence_break_ms": 485,
+      "intonation_variability": 0.204,
+      "energy_variability": 0.175
+    }
+  },
+  "voice_ref": {
+    "id": "2e574cd7-9e35-45b6-b1a4-13c9d9feb3fe",
+    "name": "svy_cf2f57e14e",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early forties, light Texas accent; neutral timbre.",
+    "created_at": 1760585141
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "My initial recommendation would be to use the. NLTK offers methods for or, as well as methods for analyzing the. However, all of this requires a bit of programming. That's tricky. Have you looked into? I'm not exactly sure if/how GATE does what you want, but it does offer a GUI.",
+        "description": "Explain comfortably. Vary speed slightly, add brief pauses, and use tone for emphasis.",
+        "speed": 0.9689771768057418,
+        "trailing_silence": 0.3069238089987668,
+        "voice": {
+          "id": "2e574cd7-9e35-45b6-b1a4-13c9d9feb3fe"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11380505",
+    "generation_id": "c4b1ab92-cf49-43f9-af59-cb7241c924c4",
+    "duration_s": 17.053583,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 273408,
+    "elapsed_sec": 4.936,
+    "model_version": "1",
+    "used_voice": {
+      "id": "2e574cd7-9e35-45b6-b1a4-13c9d9feb3fe",
+      "name": "svy_cf2f57e14e",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early forties, light Texas accent; neutral timbre.",
+      "created_at": 1760585141
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032610_Ziming_positive_044b453e.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032610_Ziming_positive_044b453e_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:26:10.320490Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 17.088,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032610_Ziming_positive_044b453e.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032610_Ziming_positive_044b453e_aug.wav"
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1629895325,
+    "answer": 2113736166
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1114,
+  "answer_text": "The rule is very robust and works well in practice. The bin-width is set to. So the number of bins is, where is the number of observations, max is the maximum value and min is the minimum value. In base R, you can use: For other plotting libraries without this option , you can calculate binwidth as:",
+  "instruction_text": "Read like meeting notes. Tight rhythm, shallow prosody, eliminate expressive stress on key terms.",
+  "parameters_text": "male voice, late twenties \u2014 light Canadian accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 28,
+    "accent": "Canadian English",
+    "features": [],
+    "style_params": {
+      "rate": 1.117,
+      "pitch_semitones": -0.79,
+      "micro_break_ms": 129,
+      "sentence_break_ms": 746,
+      "intonation_variability": 0.089,
+      "energy_variability": 0.055
+    }
+  },
+  "voice_ref": {
+    "id": "22cec04f-cfc9-4243-9bfc-9e093bb5912b",
+    "name": "svy_d98366cf64",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, late twenties, light Canadian accent; neutral timbre.",
+    "created_at": 1760583394
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "The rule is very robust and works well in practice. The bin-width is set to. So the number of bins is, where is the number of observations, max is the maximum value and min is the minimum value. In base R, you can use: For other plotting libraries without this option , you can calculate binwidth as:",
+        "description": "Read like meeting notes. Tight rhythm, shallow prosody, eliminate expressive stress on key terms.",
+        "speed": 1.3206321324628982,
+        "trailing_silence": 0.03068400670185115,
+        "voice": {
+          "id": "22cec04f-cfc9-4243-9bfc-9e093bb5912b"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11371160",
+    "generation_id": "5c9f6040-fa89-49b1-ac9d-9b4053272e65",
+    "duration_s": 14.417333,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 231168,
+    "elapsed_sec": 4.577,
+    "model_version": "1",
+    "used_voice": {
+      "id": "22cec04f-cfc9-4243-9bfc-9e093bb5912b",
+      "name": "svy_d98366cf64",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, late twenties, light Canadian accent; neutral timbre.",
+      "created_at": 1760583394
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_025700_Ziming_negative_9eed6820.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_025700_Ziming_negative_9eed6820_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:57:00.853379Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 14.448,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_025700_Ziming_negative_9eed6820.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_025700_Ziming_negative_9eed6820_aug.wav"
+  }
+}

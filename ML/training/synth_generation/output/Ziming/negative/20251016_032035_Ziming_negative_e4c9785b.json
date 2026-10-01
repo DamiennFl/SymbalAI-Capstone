@@ -1,0 +1,92 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1096242610,
+    "answer": 1698557233
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 484,
+  "answer_text": "Software can always be improved. Here are some things you could do when there is no immediate need for code: I'm sure you can think of a few more.",
+  "instruction_text": "Rapid, monotone narration. Uniform clause timing, minimal breath marks, and no expressive shaping.",
+  "parameters_text": "female voice, late twenties \u2014 light Texas accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 27,
+    "accent": "US Texas English",
+    "features": [
+      "high_energy",
+      "nonconsistent_tempo",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.245,
+      "pitch_semitones": -0.83,
+      "micro_break_ms": 96,
+      "sentence_break_ms": 647,
+      "intonation_variability": 0.09,
+      "energy_variability": 0.113
+    }
+  },
+  "voice_ref": {
+    "id": "bcdfa638-8cb2-435c-b07d-5d722e7c8285",
+    "name": "svy_57a24f2315",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, late twenties, light Texas accent; neutral timbre.",
+    "created_at": 1760584820
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Software can always be improved. Here are some things you could do when there is no immediate need for code: I'm sure you can think of a few more.",
+        "description": "Rapid, monotone narration. Uniform clause timing, minimal breath marks, and no expressive shaping.",
+        "speed": 1.4,
+        "trailing_silence": 0.02802852026712308,
+        "voice": {
+          "id": "bcdfa638-8cb2-435c-b07d-5d722e7c8285"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771400810",
+    "generation_id": "f6014d74-3ffb-4b94-8c8f-268b18d1284e",
+    "duration_s": 6.414688,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 103296,
+    "elapsed_sec": 3.168,
+    "model_version": "1",
+    "used_voice": {
+      "id": "bcdfa638-8cb2-435c-b07d-5d722e7c8285",
+      "name": "svy_57a24f2315",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, late twenties, light Texas accent; neutral timbre.",
+      "created_at": 1760584820
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032035_Ziming_negative_e4c9785b.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032035_Ziming_negative_e4c9785b_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:20:35.075000Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 6.456,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032035_Ziming_negative_e4c9785b.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032035_Ziming_negative_e4c9785b_aug.wav"
+  }
+}

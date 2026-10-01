@@ -1,0 +1,20 @@
+{
+  "seed": 56461227,
+  "intensity": "med",
+  "applied": [
+    {
+      "effect": "reverb",
+      "wet": 0.256,
+      "rir": "synthetic_0.47s"
+    },
+    {
+      "effect": "noise",
+      "color": 1,
+      "snr_db": 20.14
+    }
+  ],
+  "sr": 48000,
+  "length_sec": 30.24,
+  "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022829_Ziming_positive_83d25430.mp3",
+  "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022829_Ziming_positive_83d25430_aug.wav"
+}

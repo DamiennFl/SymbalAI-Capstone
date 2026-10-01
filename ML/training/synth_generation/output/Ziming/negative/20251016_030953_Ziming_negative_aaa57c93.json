@@ -1,0 +1,90 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 4014965606,
+    "answer": 1579470379
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1983,
+  "answer_text": "1 Kilocalorie equals 1 Calorie. Note the capital \"C\". 1 kilocalorie equals 1000 calories. Note the lowercase \"c\". So Calories and kilocalories are pretty much the same thing. 1000 calories= 1 Kcal",
+  "instruction_text": "Monotone, efficient delivery. Even word spacing, little breath, no dramatic stress, and minimal sentence-end lift.",
+  "parameters_text": "male voice, early twenties \u2014 light Texas accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 23,
+    "accent": "US Texas English",
+    "features": [
+      "nonconsistent_tempo"
+    ],
+    "style_params": {
+      "rate": 1.176,
+      "pitch_semitones": -1.11,
+      "micro_break_ms": 97,
+      "sentence_break_ms": 749,
+      "intonation_variability": 0.086,
+      "energy_variability": 0.096
+    }
+  },
+  "voice_ref": {
+    "id": "7acf31a4-ba7c-4485-a844-e9298a566b1d",
+    "name": "svy_817c5b407c",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early twenties, light Texas accent; neutral timbre.",
+    "created_at": 1760584172
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "1 Kilocalorie equals 1 Calorie. Note the capital \"C\". 1 kilocalorie equals 1000 calories. Note the lowercase \"c\". So Calories and kilocalories are pretty much the same thing. 1000 calories= 1 Kcal",
+        "description": "Monotone, efficient delivery. Even word spacing, little breath, no dramatic stress, and minimal sentence-end lift.",
+        "speed": 1.366586154703637,
+        "trailing_silence": 0.02316773630773341,
+        "voice": {
+          "id": "7acf31a4-ba7c-4485-a844-e9298a566b1d"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11375348",
+    "generation_id": "14d31eaf-39da-43b0-b15b-ee3d82812a6a",
+    "duration_s": 13.289833,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 213120,
+    "elapsed_sec": 4.493,
+    "model_version": "1",
+    "used_voice": {
+      "id": "7acf31a4-ba7c-4485-a844-e9298a566b1d",
+      "name": "svy_817c5b407c",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early twenties, light Texas accent; neutral timbre.",
+      "created_at": 1760584172
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030953_Ziming_negative_aaa57c93.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030953_Ziming_negative_aaa57c93_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:09:53.937574Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 13.32,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030953_Ziming_negative_aaa57c93.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_030953_Ziming_negative_aaa57c93_aug.wav"
+  }
+}

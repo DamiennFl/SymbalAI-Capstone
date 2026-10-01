@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1996971079,
+    "answer": 3171063593
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 10,
+  "answer_text": "There are at least two questions in your question: and The first question is deep and technical, the second broad and philosophical. The methods have been described in:. The problem of Go or perfect information games in general is that: So the methods will concentrate on shrinking the search space in an efficient way. Methods and structures described in the paper include: The second question has no definite answer, as you will have at least two angles on AI: and. So, yes, it is artificial intelligence, but it is non-sentient.",
+  "instruction_text": "Deliver as an automated attendant. Even syllable spacing, soft edges, and suppressed dynamic range.",
+  "parameters_text": "male voice, early thirties \u2014 light Eastern European / Slavic accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 34,
+    "accent": "Eastern European / Slavic English",
+    "features": [
+      "bright_voice",
+      "deep_voice",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.213,
+      "pitch_semitones": -0.63,
+      "micro_break_ms": 96,
+      "sentence_break_ms": 747,
+      "intonation_variability": 0.12,
+      "energy_variability": 0.094
+    }
+  },
+  "voice_ref": {
+    "id": "689af540-bf81-481d-a5da-5ad091c95fc9",
+    "name": "svy_98d617b6b0",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early thirties, light Eastern European / Slavic accent; neutral timbre.",
+    "created_at": 1760568705
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "There are at least two questions in your question: and The first question is deep and technical, the second broad and philosophical. The methods have been described in:. The problem of Go or perfect information games in general is that: So the methods will concentrate on shrinking the search space in an efficient way. Methods and structures described in the paper include: The second question has no definite answer, as you will have at least two angles on AI: and. So, yes, it is artificial intelligence, but it is non-sentient.",
+        "description": "Deliver as an automated attendant. Even syllable spacing, soft edges, and suppressed dynamic range.",
+        "speed": 1.4,
+        "trailing_silence": 0.04571912817603336,
+        "voice": {
+          "id": "689af540-bf81-481d-a5da-5ad091c95fc9"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771277415",
+    "generation_id": "36269caf-3bc7-453e-b4a1-a6045ab04894",
+    "duration_s": 27.232375,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 436224,
+    "elapsed_sec": 6.794,
+    "model_version": "1",
+    "used_voice": {
+      "id": "689af540-bf81-481d-a5da-5ad091c95fc9",
+      "name": "svy_98d617b6b0",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early thirties, light Eastern European / Slavic accent; neutral timbre.",
+      "created_at": 1760568705
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_225243_Ziming_negative_e52dc8c8.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_225243_Ziming_negative_e52dc8c8_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:52:43.952652Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 27.264,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_225243_Ziming_negative_e52dc8c8.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_225243_Ziming_negative_e52dc8c8_aug.wav"
+  }
+}

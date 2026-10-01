@@ -1,0 +1,101 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1313945106,
+    "answer": 2827953476
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1144,
+  "answer_text": "The main problem with using R for large data sets is the RAM constraint. The reason behind keeping all the data in RAM is that it provides much faster access and data manipulations than would storing on HDDs. If you are willing to take a hit on performance, then yes, it is quite practical to work with.",
+  "instruction_text": "Keep it clipped. No expressive stress, consistent punctuation timing, flat pitch.",
+  "parameters_text": "male voice, fifties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 50,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "likes_to_pause"
+    ],
+    "style_params": {
+      "rate": 1.242,
+      "pitch_semitones": -1.59,
+      "micro_break_ms": 113,
+      "sentence_break_ms": 661,
+      "intonation_variability": 0.121,
+      "energy_variability": 0.059
+    }
+  },
+  "voice_ref": {
+    "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+    "name": "svy_2c483d1937",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+    "created_at": 1760581761
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "The main problem with using R for large data sets is the RAM constraint. The reason behind keeping all the data in RAM is that it provides much faster access and data manipulations than would storing on HDDs. If you are willing to take a hit on performance, then yes, it is quite practical to work with.",
+        "description": "Keep it clipped. No expressive stress, consistent punctuation timing, flat pitch.",
+        "speed": 1.4,
+        "trailing_silence": 0.07220502460532718,
+        "voice": {
+          "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11362707",
+    "generation_id": "cd901fd3-6e36-4737-a578-636526c4225b",
+    "duration_s": 15.778792,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 253056,
+    "elapsed_sec": 5.055,
+    "model_version": "1",
+    "used_voice": {
+      "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+      "name": "svy_2c483d1937",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+      "created_at": 1760581761
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023433_Ziming_negative_96c575d0.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023433_Ziming_negative_96c575d0_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:34:33.160703Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 15.816,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023433_Ziming_negative_96c575d0.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023433_Ziming_negative_96c575d0_aug.wav"
+  }
+}

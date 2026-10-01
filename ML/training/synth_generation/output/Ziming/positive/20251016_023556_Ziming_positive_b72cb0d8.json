@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1241821857,
+    "answer": 2462141134
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 282,
+  "answer_text": "is widely used to demonstrate AI in schools and universities . With LEGO as basis, you are very flexible. You can build what you want very easily. The AI programs can be written in different languages from very easy graphical once to Lisp and C++. The newest version has an SD Card drive, USB interface and a powerful ARM processor. You can use four motors and four sensors directly. There exists touch, sound, sonar, gyro, infrared and color sensors. There is also a big community which provides you with a lot of ideas, hardware and programs .",
+  "instruction_text": "Engaging clarity. Use small pauses to segment ideas; vary intonation to maintain interest.",
+  "parameters_text": "male voice, early thirties \u2014 light Indian accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 32,
+    "accent": "Indian English",
+    "features": [
+      "deep_voice",
+      "low_energy"
+    ],
+    "style_params": {
+      "rate": 1.006,
+      "pitch_semitones": 0.01,
+      "micro_break_ms": 138,
+      "sentence_break_ms": 390,
+      "intonation_variability": 0.274,
+      "energy_variability": 0.288
+    }
+  },
+  "voice_ref": {
+    "id": "120cb7b6-db95-4179-8a82-cf9ef7145375",
+    "name": "svy_fd1d54fd9f",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early thirties, light Indian accent; neutral timbre.",
+    "created_at": 1760582115
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "is widely used to demonstrate AI in schools and universities . With LEGO as basis, you are very flexible. You can build what you want very easily. The AI programs can be written in different languages from very easy graphical once to Lisp and C++. The newest version has an SD Card drive, USB interface and a powerful ARM processor. You can use four motors and four sensors directly. There exists touch, sound, sonar, gyro, infrared and color sensors. There is also a big community which provides you with a lot of ideas, hardware and programs .",
+        "description": "Engaging clarity. Use small pauses to segment ideas; vary intonation to maintain interest.",
+        "speed": 1.0519513164073147,
+        "trailing_silence": 0.2519284340874465,
+        "voice": {
+          "id": "120cb7b6-db95-4179-8a82-cf9ef7145375"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771383396",
+    "generation_id": "2ce1bb5c-2d60-49ea-8c87-df8fb750de57",
+    "duration_s": 29.118583,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 466560,
+    "elapsed_sec": 7.173,
+    "model_version": "1",
+    "used_voice": {
+      "id": "120cb7b6-db95-4179-8a82-cf9ef7145375",
+      "name": "svy_fd1d54fd9f",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early thirties, light Indian accent; neutral timbre.",
+      "created_at": 1760582115
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023556_Ziming_positive_b72cb0d8.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023556_Ziming_positive_b72cb0d8_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:35:56.361230Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 29.16,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023556_Ziming_positive_b72cb0d8.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023556_Ziming_positive_b72cb0d8_aug.wav"
+  }
+}

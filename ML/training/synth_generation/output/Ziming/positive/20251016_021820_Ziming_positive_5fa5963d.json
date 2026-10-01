@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1704993327,
+    "answer": 3912522163
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1778,
+  "answer_text": "Reinfection with typhoid fever is certainly possible. An found that individuals with an induced infection were less likely to develop an infection if they had been previously infected, but 23% of them still developed a clinical fever. suggests that unless immunologically boosted, immunity to typhoid fever cannot last for more than ~ 1 year. Even immunity that arises from wanes and needs a booster after a few years. Reinfection, regardless of the success of your treatment or diet, is very possible.",
+  "instruction_text": "Approachable style. Keep timing loose, vary intonation, and let important words carry weight.",
+  "parameters_text": "male voice, early sixties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 63,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "deep_voice",
+      "fast_voice",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.045,
+      "pitch_semitones": -0.17,
+      "micro_break_ms": 135,
+      "sentence_break_ms": 431,
+      "intonation_variability": 0.252,
+      "energy_variability": 0.125
+    }
+  },
+  "voice_ref": {
+    "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+    "name": "svy_99d48cd0c1",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+    "created_at": 1760580940
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Reinfection with typhoid fever is certainly possible. An found that individuals with an induced infection were less likely to develop an infection if they had been previously infected, but 23% of them still developed a clinical fever. suggests that unless immunologically boosted, immunity to typhoid fever cannot last for more than ~ 1 year. Even immunity that arises from wanes and needs a booster after a few years. Reinfection, regardless of the success of your treatment or diet, is very possible.",
+        "description": "Approachable style. Keep timing loose, vary intonation, and let important words carry weight.",
+        "speed": 1.0538894604356634,
+        "trailing_silence": 0.3495003483279454,
+        "voice": {
+          "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11356931",
+    "generation_id": "be5e6b86-92fb-4e2c-bba5-d5ee81ca7447",
+    "duration_s": 27.616167,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 442368,
+    "elapsed_sec": 6.766,
+    "model_version": "1",
+    "used_voice": {
+      "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+      "name": "svy_99d48cd0c1",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+      "created_at": 1760580940
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021820_Ziming_positive_5fa5963d.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021820_Ziming_positive_5fa5963d_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:18:20.737905Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 27.648,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021820_Ziming_positive_5fa5963d.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_021820_Ziming_positive_5fa5963d_aug.wav"
+  }
+}

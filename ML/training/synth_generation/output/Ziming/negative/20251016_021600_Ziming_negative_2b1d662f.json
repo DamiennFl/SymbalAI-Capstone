@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2952974405,
+    "answer": 4081434894
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 561,
+  "answer_text": "In the United States, there has been significant litigation and regulation regarding the giving of references. The American Bar Association highlights several potential legal pitfalls in this area and cites specific cases that illustrate these issues.",
+  "instruction_text": "Script reading with speed. Compress phrasing, keep pitch range narrow, and avoid conversational rhythm.",
+  "parameters_text": "male voice, early sixties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 62,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "bright_voice",
+      "precise_articulation",
+      "slow_voice"
+    ],
+    "style_params": {
+      "rate": 1.221,
+      "pitch_semitones": -1.08,
+      "micro_break_ms": 139,
+      "sentence_break_ms": 684,
+      "intonation_variability": 0.05,
+      "energy_variability": 0.089
+    }
+  },
+  "voice_ref": {
+    "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+    "name": "svy_99d48cd0c1",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+    "created_at": 1760580940
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "In the United States, there has been significant litigation and regulation regarding the giving of references. The American Bar Association highlights several potential legal pitfalls in this area and cites specific cases that illustrate these issues.",
+        "description": "Script reading with speed. Compress phrasing, keep pitch range narrow, and avoid conversational rhythm.",
+        "speed": 1.4,
+        "trailing_silence": 0.07958041478616876,
+        "voice": {
+          "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771376512",
+    "generation_id": "8e03b0b3-ad60-4bb1-8aae-9a1580fe0fb2",
+    "duration_s": 11.786229,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 189312,
+    "elapsed_sec": 3.866,
+    "model_version": "1",
+    "used_voice": {
+      "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+      "name": "svy_99d48cd0c1",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+      "created_at": 1760580940
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_021600_Ziming_negative_2b1d662f.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_021600_Ziming_negative_2b1d662f_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:16:00.700449Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 11.832,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_021600_Ziming_negative_2b1d662f.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_021600_Ziming_negative_2b1d662f_aug.wav"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 982591762,
+    "answer": 274810137
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 713,
+  "answer_text": "The less antigens a woman (or in fact a female of any species close enough to humans for this phenomenon) has, the higher are the risks of triggering an immune reaction during her pregnancy, if the child has those antigens. The is probably the most common case of this problem. One could thus assume that in populations that are genetically diverse in respect to blood groups, absence of antigens has negative effects on reproduction (unless countered by medicine).",
+  "instruction_text": "Natural storytelling. Varied rhythm, brief pauses, and expressive but professional pitch.",
+  "parameters_text": "female voice, early forties \u2014 light Australian accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 42,
+    "accent": "Australian English",
+    "features": [
+      "deep_voice",
+      "high_energy"
+    ],
+    "style_params": {
+      "rate": 0.99,
+      "pitch_semitones": 0.87,
+      "micro_break_ms": 206,
+      "sentence_break_ms": 373,
+      "intonation_variability": 0.212,
+      "energy_variability": 0.27
+    }
+  },
+  "voice_ref": {
+    "id": "b70dd5ef-dc8d-4697-a3d2-26114365a8b5",
+    "name": "svy_1d121eec19",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early forties, light Australian accent; neutral timbre.",
+    "created_at": 1760581358
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "The less antigens a woman (or in fact a female of any species close enough to humans for this phenomenon) has, the higher are the risks of triggering an immune reaction during her pregnancy, if the child has those antigens. The is probably the most common case of this problem. One could thus assume that in populations that are genetically diverse in respect to blood groups, absence of antigens has negative effects on reproduction (unless countered by medicine).",
+        "description": "Natural storytelling. Varied rhythm, brief pauses, and expressive but professional pitch.",
+        "speed": 0.9067221020807931,
+        "trailing_silence": 0.3169095967611807,
+        "voice": {
+          "id": "b70dd5ef-dc8d-4697-a3d2-26114365a8b5"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11358202",
+    "generation_id": "5f239adb-14f4-497e-92cb-8d440496f007",
+    "duration_s": 27.943562,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 447744,
+    "elapsed_sec": 9.567,
+    "model_version": "1",
+    "used_voice": {
+      "id": "b70dd5ef-dc8d-4697-a3d2-26114365a8b5",
+      "name": "svy_1d121eec19",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early forties, light Australian accent; neutral timbre.",
+      "created_at": 1760581358
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022322_Ziming_positive_735a29cb.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022322_Ziming_positive_735a29cb_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:23:22.556299Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 27.984,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022322_Ziming_positive_735a29cb.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_022322_Ziming_positive_735a29cb_aug.wav"
+  }
+}

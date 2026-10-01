@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1659851397,
+    "answer": 2766797313
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1664,
+  "answer_text": "I live and work in the Netherlands, but all the code we write is in English. Here are some reasons I can think of why we code in English: The only reason I can think of why you would not code in English, is in the context of. Practicing DDD includes defining a ubiquitous language with your client. If your client demands the use of non-English terms, it would be unwise to translate these terms to English in your code; it defeats the purpose of the ubiquitous language.",
+  "instruction_text": "Speak spontaneously. Allow minor imperfections, vary tempo, and let intonation guide the listener.",
+  "parameters_text": "female voice, early twenties \u2014 light Indian accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 23,
+    "accent": "Indian English",
+    "features": [
+      "bright_voice",
+      "precise_articulation",
+      "slow_voice"
+    ],
+    "style_params": {
+      "rate": 1.008,
+      "pitch_semitones": 0.41,
+      "micro_break_ms": 144,
+      "sentence_break_ms": 486,
+      "intonation_variability": 0.16,
+      "energy_variability": 0.176
+    }
+  },
+  "voice_ref": {
+    "id": "42afcf7d-159d-44b6-9ba5-abbf6521096a",
+    "name": "svy_d87f0625eb",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early twenties, light Indian accent; neutral timbre.",
+    "created_at": 1760567928
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I live and work in the Netherlands, but all the code we write is in English. Here are some reasons I can think of why we code in English: The only reason I can think of why you would not code in English, is in the context of. Practicing DDD includes defining a ubiquitous language with your client. If your client demands the use of non-English terms, it would be unwise to translate these terms to English in your code; it defeats the purpose of the ubiquitous language.",
+        "description": "Speak spontaneously. Allow minor imperfections, vary tempo, and let intonation guide the listener.",
+        "speed": 0.9271385066978906,
+        "trailing_silence": 0.20630208953954904,
+        "voice": {
+          "id": "42afcf7d-159d-44b6-9ba5-abbf6521096a"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11263387",
+    "generation_id": "0227537f-80b2-4da3-b2b1-9bb3afc27887",
+    "duration_s": 26.312958,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 421632,
+    "elapsed_sec": 6.781,
+    "model_version": "1",
+    "used_voice": {
+      "id": "42afcf7d-159d-44b6-9ba5-abbf6521096a",
+      "name": "svy_d87f0625eb",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early twenties, light Indian accent; neutral timbre.",
+      "created_at": 1760567928
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223925_Ziming_positive_3680f75e.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223925_Ziming_positive_3680f75e_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:39:25.746898Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 26.352,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223925_Ziming_positive_3680f75e.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223925_Ziming_positive_3680f75e_aug.wav"
+  }
+}

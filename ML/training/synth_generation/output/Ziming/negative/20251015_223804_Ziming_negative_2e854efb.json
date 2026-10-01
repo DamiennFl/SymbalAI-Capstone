@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2602715434,
+    "answer": 1193628848
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 939,
+  "answer_text": "I really enjoy working with for easy proper fitting of signal and background distributions and for quick principal component analyses and modelling of multivariate problems with some standard tools (like genetic algorithms and neural networks, also does BDTs). They are both part of the C++ libraries which have a pretty heavy bias towards particle physics problems though.",
+  "instruction_text": "Straight-through reading. Reduce breath, shorten rests, and avoid melodic arcs.",
+  "parameters_text": "female voice, early thirties \u2014 light Irish accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 33,
+    "accent": "Irish English",
+    "features": [
+      "high_energy",
+      "likes_to_pause",
+      "nonconsistent_tempo"
+    ],
+    "style_params": {
+      "rate": 1.227,
+      "pitch_semitones": -1.67,
+      "micro_break_ms": 131,
+      "sentence_break_ms": 643,
+      "intonation_variability": 0.133,
+      "energy_variability": 0.068
+    }
+  },
+  "voice_ref": {
+    "id": "c2d79afc-9293-4d6d-b7f5-b292e26146b4",
+    "name": "svy_9bb86330a7",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early thirties, light Irish accent; neutral timbre.",
+    "created_at": 1760567856
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I really enjoy working with for easy proper fitting of signal and background distributions and for quick principal component analyses and modelling of multivariate problems with some standard tools (like genetic algorithms and neural networks, also does BDTs). They are both part of the C++ libraries which have a pretty heavy bias towards particle physics problems though.",
+        "description": "Straight-through reading. Reduce breath, shorten rests, and avoid melodic arcs.",
+        "speed": 1.2997555290634166,
+        "trailing_silence": 0.04239746847121642,
+        "voice": {
+          "id": "c2d79afc-9293-4d6d-b7f5-b292e26146b4"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771273676",
+    "generation_id": "f0f2401c-e85d-4eca-afe9-2b3579fd898a",
+    "duration_s": 17.629062,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 282624,
+    "elapsed_sec": 5.121,
+    "model_version": "1",
+    "used_voice": {
+      "id": "c2d79afc-9293-4d6d-b7f5-b292e26146b4",
+      "name": "svy_9bb86330a7",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early thirties, light Irish accent; neutral timbre.",
+      "created_at": 1760567856
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223804_Ziming_negative_2e854efb.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223804_Ziming_negative_2e854efb_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:38:04.222319Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.664,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223804_Ziming_negative_2e854efb.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251015_223804_Ziming_negative_2e854efb_aug.wav"
+  }
+}

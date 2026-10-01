@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2547013718,
+    "answer": 3495519929
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1737,
+  "answer_text": "As I mentioned in, icing is not meant to heal tendinopathy. It is supposed to be a painkiller. It can have some effects that may feel like they are fixing the problem though. The cold ice forces blood vessels to contract which can help reduce the inflammation. This might be considered healing, but the tendinopathy is still there, until the tendon heals itself.",
+  "instruction_text": "Scripted cadence. Predictable breaks, monotone energy, and tight, constant rhythm.",
+  "parameters_text": "male voice, early twenties \u2014 light Indian accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 24,
+    "accent": "Indian English",
+    "features": [
+      "bright_voice",
+      "deep_voice",
+      "likes_to_pause"
+    ],
+    "style_params": {
+      "rate": 1.119,
+      "pitch_semitones": -1.9,
+      "micro_break_ms": 116,
+      "sentence_break_ms": 661,
+      "intonation_variability": 0.063,
+      "energy_variability": 0.069
+    }
+  },
+  "voice_ref": {
+    "id": "3558fb9c-1e32-4176-a847-6893ac4dcaa2",
+    "name": "svy_ddfd3134b2",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early twenties, light Indian accent; neutral timbre.",
+    "created_at": 1760578219
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "As I mentioned in, icing is not meant to heal tendinopathy. It is supposed to be a painkiller. It can have some effects that may feel like they are fixing the problem though. The cold ice forces blood vessels to contract which can help reduce the inflammation. This might be considered healing, but the tendinopathy is still there, until the tendon heals itself.",
+        "description": "Scripted cadence. Predictable breaks, monotone energy, and tight, constant rhythm.",
+        "speed": 1.3089214161195366,
+        "trailing_silence": 0.02367216281853758,
+        "voice": {
+          "id": "3558fb9c-1e32-4176-a847-6893ac4dcaa2"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11337104",
+    "generation_id": "a844e224-0f8f-45d2-bcb9-77c8fb4eec35",
+    "duration_s": 17.690333,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 283776,
+    "elapsed_sec": 8.175,
+    "model_version": "1",
+    "used_voice": {
+      "id": "3558fb9c-1e32-4176-a847-6893ac4dcaa2",
+      "name": "svy_ddfd3134b2",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early twenties, light Indian accent; neutral timbre.",
+      "created_at": 1760578219
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013056_Ziming_negative_eac69cc5.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013056_Ziming_negative_eac69cc5_aug.wav"
+  },
+  "created_utc": "2025-10-16T01:30:56.806350Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 17.736,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013056_Ziming_negative_eac69cc5.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_013056_Ziming_negative_eac69cc5_aug.wav"
+  }
+}

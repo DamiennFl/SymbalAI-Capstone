@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2323757693,
+    "answer": 3796941340
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 836,
+  "answer_text": "Quick answer, no. Imagine a balloon; as you compress the balloon, there will be a lot of air that leaves it. But as you let it relax, the balloon pulls in surrounding air even as you fill it from another side. When the aortic and tricuspid valves are closed, there is blood flow forward but due to conservation of mass, the blood goes back to fill in the empty region.",
+  "instruction_text": "Friendly explanation. Use varied rhythm, natural sentence curves, and small pauses for structure.",
+  "parameters_text": "male voice, fifties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 46,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "high_energy",
+      "nonconsistent_tempo",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 0.981,
+      "pitch_semitones": 0.33,
+      "micro_break_ms": 205,
+      "sentence_break_ms": 444,
+      "intonation_variability": 0.287,
+      "energy_variability": 0.246
+    }
+  },
+  "voice_ref": {
+    "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+    "name": "svy_2c483d1937",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+    "created_at": 1760581761
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Quick answer, no. Imagine a balloon; as you compress the balloon, there will be a lot of air that leaves it. But as you let it relax, the balloon pulls in surrounding air even as you fill it from another side. When the aortic and tricuspid valves are closed, there is blood flow forward but due to conservation of mass, the blood goes back to fill in the empty region.",
+        "description": "Friendly explanation. Use varied rhythm, natural sentence curves, and small pauses for structure.",
+        "speed": 0.9920164159918076,
+        "trailing_silence": 0.3175920857073006,
+        "voice": {
+          "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11364098",
+    "generation_id": "c1a704f5-295b-46b1-883c-56e7eb1c953d",
+    "duration_s": 22.42425,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 359424,
+    "elapsed_sec": 5.771,
+    "model_version": "1",
+    "used_voice": {
+      "id": "6236e486-09dd-453b-9cc5-c7b34ed80d15",
+      "name": "svy_2c483d1937",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, fifties, General American accent; neutral timbre.",
+      "created_at": 1760581761
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023901_Ziming_positive_3100e369.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023901_Ziming_positive_3100e369_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:39:01.737725Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 22.464,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023901_Ziming_positive_3100e369.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023901_Ziming_positive_3100e369_aug.wav"
+  }
+}

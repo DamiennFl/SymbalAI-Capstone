@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1577786386,
+    "answer": 1599576533
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 667,
+  "answer_text": "A list of dyes is available and a list of dyes specific to nucleic acids is available. I think you have two choices the SYBR Gold nucleic acid gel stain which can be detected under UV light (not sure if it can be used with polyacrylamide gels). Your other option which can be used with polyacrylamide gels is the SYBR Green II RNA gel stain , this stain can be detected with UV light post-electrophoresis. It states RNA in the name but it can also be used for ssDNA. Hope this helps",
+  "instruction_text": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+  "parameters_text": "female voice, fifties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 51,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "fast_voice",
+      "likes_to_pause",
+      "nonconsistent_tempo"
+    ],
+    "style_params": {
+      "rate": 0.988,
+      "pitch_semitones": 0.8,
+      "micro_break_ms": 181,
+      "sentence_break_ms": 445,
+      "intonation_variability": 0.252,
+      "energy_variability": 0.131
+    }
+  },
+  "voice_ref": {
+    "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0",
+    "name": "svy_099200bb08",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, fifties, General American accent; neutral timbre.",
+    "created_at": 1760581307
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "A list of dyes is available and a list of dyes specific to nucleic acids is available. I think you have two choices the SYBR Gold nucleic acid gel stain which can be detected under UV light (not sure if it can be used with polyacrylamide gels). Your other option which can be used with polyacrylamide gels is the SYBR Green II RNA gel stain , this stain can be detected with UV light post-electrophoresis. It states RNA in the name but it can also be used for ssDNA. Hope this helps",
+        "description": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+        "speed": 0.9362201435602125,
+        "trailing_silence": 0.3328315978917563,
+        "voice": {
+          "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11362220",
+    "generation_id": "4cb7ea2e-e0cd-45ab-833a-4b872984702f",
+    "duration_s": 28.759479,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 460800,
+    "elapsed_sec": 7.338,
+    "model_version": "1",
+    "used_voice": {
+      "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0",
+      "name": "svy_099200bb08",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, fifties, General American accent; neutral timbre.",
+      "created_at": 1760581307
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023400_Ziming_positive_bf704cff.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023400_Ziming_positive_bf704cff_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:34:00.255519Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 28.8,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023400_Ziming_positive_bf704cff.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_023400_Ziming_positive_bf704cff_aug.wav"
+  }
+}

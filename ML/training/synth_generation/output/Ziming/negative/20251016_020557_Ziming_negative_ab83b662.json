@@ -1,0 +1,101 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2435197944,
+    "answer": 2441088430
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 604,
+  "answer_text": "consumes and reuses the nematocysts of jellyfish siphonophores. Perhaps not quite what you were looking for, as the animal doesn't simply concentrate the toxin, but actually co-opts entire stinging cells. Further to your mention of dinoflagellate toxins being concentrated by fish, I seem to recall reading something about some toxins being modified in vivo into more toxic derivatives, but cannot find any mention of it.",
+  "instruction_text": "Read with textbook neutrality. Minimal variance in pitch, timing, and loudness.",
+  "parameters_text": "female voice, early twenties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 22,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "breathy"
+    ],
+    "style_params": {
+      "rate": 1.199,
+      "pitch_semitones": -1.16,
+      "micro_break_ms": 124,
+      "sentence_break_ms": 666,
+      "intonation_variability": 0.136,
+      "energy_variability": 0.077
+    }
+  },
+  "voice_ref": {
+    "id": "e2599b0f-f021-47de-a943-98aa19544ae1",
+    "name": "svy_bc66d31914",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early twenties, General American accent; neutral timbre.",
+    "created_at": 1760580327
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "consumes and reuses the nematocysts of jellyfish siphonophores. Perhaps not quite what you were looking for, as the animal doesn't simply concentrate the toxin, but actually co-opts entire stinging cells. Further to your mention of dinoflagellate toxins being concentrated by fish, I seem to recall reading something about some toxins being modified in vivo into more toxic derivatives, but cannot find any mention of it.",
+        "description": "Read with textbook neutrality. Minimal variance in pitch, timing, and loudness.",
+        "speed": 1.375284833332989,
+        "trailing_silence": 0.02174102694211917,
+        "voice": {
+          "id": "e2599b0f-f021-47de-a943-98aa19544ae1"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771372768",
+    "generation_id": "f00629da-28bc-4e82-8456-4e711e03346d",
+    "duration_s": 18.168396,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 291456,
+    "elapsed_sec": 5.417,
+    "model_version": "1",
+    "used_voice": {
+      "id": "e2599b0f-f021-47de-a943-98aa19544ae1",
+      "name": "svy_bc66d31914",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early twenties, General American accent; neutral timbre.",
+      "created_at": 1760580327
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020557_Ziming_negative_ab83b662.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020557_Ziming_negative_ab83b662_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:05:57.322639Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 18.216,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020557_Ziming_negative_ab83b662.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_020557_Ziming_negative_ab83b662_aug.wav"
+  }
+}

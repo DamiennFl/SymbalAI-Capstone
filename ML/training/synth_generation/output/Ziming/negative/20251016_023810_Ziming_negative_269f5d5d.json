@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3119949209,
+    "answer": 3323263228
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 339,
+  "answer_text": "Concentrate on the work not the person. That said, it is very hard to get right. What you want is the person to change their behaviour in some way so concentrate on that, explaining why the existing behaviour is a problem and what can be done to improve that. This should (hopefully) create some emotional distance between the person and the problem so that they can see that it's not personal and help them concentrate on the solution.",
+  "instruction_text": "Flat voiceover. Avoid contouring sentences; end stops are uniform; commas are brief and consistent.",
+  "parameters_text": "male voice, early sixties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 57,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "breathy",
+      "likes_to_pause",
+      "slurred_articulation"
+    ],
+    "style_params": {
+      "rate": 1.172,
+      "pitch_semitones": -1.36,
+      "micro_break_ms": 94,
+      "sentence_break_ms": 712,
+      "intonation_variability": 0.129,
+      "energy_variability": 0.076
+    }
+  },
+  "voice_ref": {
+    "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+    "name": "svy_99d48cd0c1",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+    "created_at": 1760580940
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Concentrate on the work not the person. That said, it is very hard to get right. What you want is the person to change their behaviour in some way so concentrate on that, explaining why the existing behaviour is a problem and what can be done to improve that. This should (hopefully) create some emotional distance between the person and the problem so that they can see that it's not personal and help them concentrate on the solution.",
+        "description": "Flat voiceover. Avoid contouring sentences; end stops are uniform; commas are brief and consistent.",
+        "speed": 1.4,
+        "trailing_silence": 0.07778935361967922,
+        "voice": {
+          "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11363861",
+    "generation_id": "6e598350-ea23-4beb-b3bc-b84985de1fa5",
+    "duration_s": 20.424438,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 327552,
+    "elapsed_sec": 5.262,
+    "model_version": "1",
+    "used_voice": {
+      "id": "82e6ebc3-aec0-49f3-aac4-3a6eeb520734",
+      "name": "svy_99d48cd0c1",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early sixties, General American accent; neutral timbre.",
+      "created_at": 1760580940
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023810_Ziming_negative_269f5d5d.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023810_Ziming_negative_269f5d5d_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:38:10.874553Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 20.472,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023810_Ziming_negative_269f5d5d.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_023810_Ziming_negative_269f5d5d_aug.wav"
+  }
+}

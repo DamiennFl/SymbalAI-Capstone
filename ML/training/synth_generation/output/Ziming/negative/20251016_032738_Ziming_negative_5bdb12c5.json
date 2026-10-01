@@ -1,0 +1,92 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1573957774,
+    "answer": 1550894434
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1096,
+  "answer_text": "A statistic is any sample estimation of a population characteristic is it not? Thus, I would suggest so long as inference from a characterized sample to a population is taking place what is occurring is, at least in part, statistics. Under my definition machine learning would be a discipline that makes use of statistics. For example, under many examples of machine learning it seems like part of what is happening is an attempt to take information provided to the system (a sample) in order to guess from which distribution (a population) it arose.",
+  "instruction_text": "Read plainly and briskly. Suppress emotion, keep commas short and identical, and maintain a steady metronomic rhythm.",
+  "parameters_text": "female voice, early forties \u2014 light Midwestern accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 44,
+    "accent": "US Midwestern",
+    "features": [
+      "bright_voice",
+      "nonconsistent_tempo",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 1.168,
+      "pitch_semitones": -1.67,
+      "micro_break_ms": 94,
+      "sentence_break_ms": 690,
+      "intonation_variability": 0.118,
+      "energy_variability": 0.05
+    }
+  },
+  "voice_ref": {
+    "id": "74ea6fce-49b7-4325-8c96-3e39f3b5ad60",
+    "name": "svy_3c657c664d",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early forties, light Midwestern accent; neutral timbre.",
+    "created_at": 1760585222
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "A statistic is any sample estimation of a population characteristic is it not? Thus, I would suggest so long as inference from a characterized sample to a population is taking place what is occurring is, at least in part, statistics. Under my definition machine learning would be a discipline that makes use of statistics. For example, under many examples of machine learning it seems like part of what is happening is an attempt to take information provided to the system (a sample) in order to guess from which distribution (a population) it arose.",
+        "description": "Read plainly and briskly. Suppress emotion, keep commas short and identical, and maintain a steady metronomic rhythm.",
+        "speed": 1.2302086239669063,
+        "trailing_silence": 0.0640186714880562,
+        "voice": {
+          "id": "74ea6fce-49b7-4325-8c96-3e39f3b5ad60"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771403115",
+    "generation_id": "65297ef4-8246-4044-bbe1-832704d81353",
+    "duration_s": 25.530667,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 408960,
+    "elapsed_sec": 5.925,
+    "model_version": "1",
+    "used_voice": {
+      "id": "74ea6fce-49b7-4325-8c96-3e39f3b5ad60",
+      "name": "svy_3c657c664d",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early forties, light Midwestern accent; neutral timbre.",
+      "created_at": 1760585222
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032738_Ziming_negative_5bdb12c5.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032738_Ziming_negative_5bdb12c5_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:27:38.947823Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 25.56,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032738_Ziming_negative_5bdb12c5.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_032738_Ziming_negative_5bdb12c5_aug.wav"
+  }
+}

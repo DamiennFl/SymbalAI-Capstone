@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1136731487,
+    "answer": 3817532822
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1868,
+  "answer_text": "I had a same situation due to allergic reaction. Hives and mouth ulcers. I mixed 50/50 Mylanta and Childrens Benedryl and swished. The Mylanta coated the mouth which allowed me to eat without the pain and burning, The Childrens Benedryl helped with the ulcers and hives. It's also okay to swallow. You didn't mention the cause or the remedies you have tried. This is one that helped me. Good Luck.",
+  "instruction_text": "Low-variance narration. Fast tempo, identical clause breaks, and no natural conversational hesitation.",
+  "parameters_text": "female voice, fifties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "female",
+    "age": 48,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "bright_voice",
+      "likes_to_pause",
+      "nasal"
+    ],
+    "style_params": {
+      "rate": 1.106,
+      "pitch_semitones": -0.65,
+      "micro_break_ms": 95,
+      "sentence_break_ms": 675,
+      "intonation_variability": 0.135,
+      "energy_variability": 0.089
+    }
+  },
+  "voice_ref": {
+    "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0",
+    "name": "svy_099200bb08",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, fifties, General American accent; neutral timbre.",
+    "created_at": 1760581307
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I had a same situation due to allergic reaction. Hives and mouth ulcers. I mixed 50/50 Mylanta and Childrens Benedryl and swished. The Mylanta coated the mouth which allowed me to eat without the pain and burning, The Childrens Benedryl helped with the ulcers and hives. It's also okay to swallow. You didn't mention the cause or the remedies you have tried. This is one that helped me. Good Luck.",
+        "description": "Low-variance narration. Fast tempo, identical clause breaks, and no natural conversational hesitation.",
+        "speed": 1.2499080179320863,
+        "trailing_silence": 0.06979497373121568,
+        "voice": {
+          "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771378706",
+    "generation_id": "d53fc2e7-e1ed-4fa3-9ab6-6ad46a3906b1",
+    "duration_s": 19.576458,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 313728,
+    "elapsed_sec": 5.476,
+    "model_version": "1",
+    "used_voice": {
+      "id": "1ec7c745-b61d-469b-baf6-cdbe76bf7dc0",
+      "name": "svy_099200bb08",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, fifties, General American accent; neutral timbre.",
+      "created_at": 1760581307
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022219_Ziming_negative_41a1edcd.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022219_Ziming_negative_41a1edcd_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:22:19.350896Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 19.608,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022219_Ziming_negative_41a1edcd.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022219_Ziming_negative_41a1edcd_aug.wav"
+  }
+}

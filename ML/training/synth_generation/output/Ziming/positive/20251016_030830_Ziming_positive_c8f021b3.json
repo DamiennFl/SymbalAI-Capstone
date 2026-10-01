@@ -1,0 +1,88 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 1947432601,
+    "answer": 1796202135
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 333,
+  "answer_text": "Absolutely yes. And as a hiring manager, I would be very impressed by this. It shows initiative and self-confidence. Most people just list their old bosses or co-workers. This means you really connected with clients and helped meet their needs, and impressed them enough that they remembered you among the armies of drones and clock-watchers they likely had to deal with.",
+  "instruction_text": "Explain with ease. Keep flow relaxed, use small rests, and change pitch modestly.",
+  "parameters_text": "male voice, late twenties \u2014 light Australian accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 28,
+    "accent": "Australian English",
+    "features": [],
+    "style_params": {
+      "rate": 1.012,
+      "pitch_semitones": -0.03,
+      "micro_break_ms": 98,
+      "sentence_break_ms": 452,
+      "intonation_variability": 0.188,
+      "energy_variability": 0.27
+    }
+  },
+  "voice_ref": {
+    "id": "f5f14ce7-48de-4fae-aee6-1c02abe571e5",
+    "name": "svy_31e23f5a4a",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, late twenties, light Australian accent; neutral timbre.",
+    "created_at": 1760584080
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Absolutely yes. And as a hiring manager, I would be very impressed by this. It shows initiative and self-confidence. Most people just list their old bosses or co-workers. This means you really connected with clients and helped meet their needs, and impressed them enough that they remembered you among the armies of drones and clock-watchers they likely had to deal with.",
+        "description": "Explain with ease. Keep flow relaxed, use small rests, and change pitch modestly.",
+        "speed": 1.038860720140731,
+        "trailing_silence": 0.22710354736192742,
+        "voice": {
+          "id": "f5f14ce7-48de-4fae-aee6-1c02abe571e5"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771396112",
+    "generation_id": "d78b9ea7-291d-46f5-976e-0800f8ad386c",
+    "duration_s": 18.65375,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 299136,
+    "elapsed_sec": 5.112,
+    "model_version": "1",
+    "used_voice": {
+      "id": "f5f14ce7-48de-4fae-aee6-1c02abe571e5",
+      "name": "svy_31e23f5a4a",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, late twenties, light Australian accent; neutral timbre.",
+      "created_at": 1760584080
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030830_Ziming_positive_c8f021b3.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030830_Ziming_positive_c8f021b3_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:08:30.573429Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 18.696,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030830_Ziming_positive_c8f021b3.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030830_Ziming_positive_c8f021b3_aug.wav"
+  }
+}

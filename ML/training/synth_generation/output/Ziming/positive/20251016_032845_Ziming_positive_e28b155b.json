@@ -1,0 +1,91 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 744792302,
+    "answer": 1655917561
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 93,
+  "answer_text": "Chieko Asakawa is a major researcher in this area, and the linked TED talk is probably a good introduction to the state of the art as of 2015. a link to a 2016 paper on a smartphone navigation system. Guide animals perform manipulation tasks as well as identification tasks, and so it's not clear if those could be replaced well at all. (A smartphone that reads a label is a great help, but a dog that knows which bottle to grab and deliver to you is probably a much better help.)",
+  "instruction_text": "Conversational structure. Pause at idea boundaries; vary phrase length and tone.",
+  "parameters_text": "male voice, fifties \u2014 light Eastern European / Slavic accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 51,
+    "accent": "Eastern European / Slavic English",
+    "features": [
+      "nasal",
+      "precise_articulation"
+    ],
+    "style_params": {
+      "rate": 0.989,
+      "pitch_semitones": 0.48,
+      "micro_break_ms": 86,
+      "sentence_break_ms": 467,
+      "intonation_variability": 0.262,
+      "energy_variability": 0.208
+    }
+  },
+  "voice_ref": {
+    "id": "6f0f3250-6602-4d10-9313-a1b5819714b6",
+    "name": "svy_7e5d00f5e7",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, fifties, light Eastern European / Slavic accent; neutral timbre.",
+    "created_at": 1760585285
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Chieko Asakawa is a major researcher in this area, and the linked TED talk is probably a good introduction to the state of the art as of 2015. a link to a 2016 paper on a smartphone navigation system. Guide animals perform manipulation tasks as well as identification tasks, and so it's not clear if those could be replaced well at all. (A smartphone that reads a label is a great help, but a dog that knows which bottle to grab and deliver to you is probably a much better help.)",
+        "description": "Conversational structure. Pause at idea boundaries; vary phrase length and tone.",
+        "speed": 0.9960139753049527,
+        "trailing_silence": 0.3311102244936971,
+        "voice": {
+          "id": "6f0f3250-6602-4d10-9313-a1b5819714b6"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771403350",
+    "generation_id": "02d296ea-9551-408c-b249-81abbdd40cab",
+    "duration_s": 29.317771,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 469632,
+    "elapsed_sec": 7.529,
+    "model_version": "1",
+    "used_voice": {
+      "id": "6f0f3250-6602-4d10-9313-a1b5819714b6",
+      "name": "svy_7e5d00f5e7",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, fifties, light Eastern European / Slavic accent; neutral timbre.",
+      "created_at": 1760585285
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032845_Ziming_positive_e28b155b.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032845_Ziming_positive_e28b155b_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:28:45.632953Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 29.352,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032845_Ziming_positive_e28b155b.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_032845_Ziming_positive_e28b155b_aug.wav"
+  }
+}

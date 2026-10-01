@@ -1,0 +1,23 @@
+services:
+  web:
+    build:
+      context: .
+    image: symbal_ai:latest
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+    volumes:
+      # for dev hot-reload; remove for production
+      - ./src:/app/src
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import http.client,sys; c=http.client.HTTPConnection('localhost',8000,timeout=2); c.request('GET','/health'); r=c.getresponse(); sys.exit(0 if r.status<400 else 1)",
+        ]
+      interval: 30s
+      timeout: 3s
+      retries: 3

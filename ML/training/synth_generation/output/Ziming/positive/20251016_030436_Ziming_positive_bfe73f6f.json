@@ -1,0 +1,92 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 799217178,
+    "answer": 3695580062
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1153,
+  "answer_text": "Simply set, 'parallel' means running concurrently on distinct resources (CPUs), while 'distributed' means running across distinct computers, involving issues related to networks. Parallel computing using for instance is not distributed, while parallel computing with is often distributed. Being in a 'distributed but not parallel' setting would mean under-using resources so it is seldom encountered but it is conceptually possible.",
+  "instruction_text": "Speak as if explaining to a colleague. Use small pauses, gentle pitch movement, and relaxed, human timing.",
+  "parameters_text": "female voice, early sixties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 57,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "breathy",
+      "coarse_voice",
+      "mumbling"
+    ],
+    "style_params": {
+      "rate": 1.001,
+      "pitch_semitones": 0.94,
+      "micro_break_ms": 126,
+      "sentence_break_ms": 491,
+      "intonation_variability": 0.222,
+      "energy_variability": 0.291
+    }
+  },
+  "voice_ref": {
+    "id": "da3f455c-52d2-4423-8637-5f8d5a05d42f",
+    "name": "svy_7789ebaf4b",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early sixties, General American accent; neutral timbre.",
+    "created_at": 1760583838
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Simply set, 'parallel' means running concurrently on distinct resources (CPUs), while 'distributed' means running across distinct computers, involving issues related to networks. Parallel computing using for instance is not distributed, while parallel computing with is often distributed. Being in a 'distributed but not parallel' setting would mean under-using resources so it is seldom encountered but it is conceptually possible.",
+        "description": "Speak as if explaining to a colleague. Use small pauses, gentle pitch movement, and relaxed, human timing.",
+        "speed": 0.9461168610443557,
+        "trailing_silence": 0.3435510984130843,
+        "voice": {
+          "id": "da3f455c-52d2-4423-8637-5f8d5a05d42f"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11373325",
+    "generation_id": "12ec4bbb-d082-4bce-b8de-3455ceff7db8",
+    "duration_s": 26.570208,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 425856,
+    "elapsed_sec": 6.549,
+    "model_version": "1",
+    "used_voice": {
+      "id": "da3f455c-52d2-4423-8637-5f8d5a05d42f",
+      "name": "svy_7789ebaf4b",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early sixties, General American accent; neutral timbre.",
+      "created_at": 1760583838
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030436_Ziming_positive_bfe73f6f.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030436_Ziming_positive_bfe73f6f_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:04:36.969985Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 26.616,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030436_Ziming_positive_bfe73f6f.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_030436_Ziming_positive_bfe73f6f_aug.wav"
+  }
+}

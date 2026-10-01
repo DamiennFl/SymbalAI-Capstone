@@ -1,0 +1,97 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3753193773,
+    "answer": 3418629680
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 841,
+  "answer_text": "You'll also want to make sure that you are imaging in complete darkness because you may have very low photon emission from your luciferase system and any amount of background light can overwhelm your signal with noise.",
+  "instruction_text": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+  "parameters_text": "female voice, mid thirties \u2014 General American accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 37,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "nasal",
+      "slurred_articulation"
+    ],
+    "style_params": {
+      "rate": 0.975,
+      "pitch_semitones": -0.24,
+      "micro_break_ms": 72,
+      "sentence_break_ms": 423,
+      "intonation_variability": 0.267,
+      "energy_variability": 0.294
+    }
+  },
+  "voice_ref": {
+    "id": "67a5ce51-e8c0-47a2-9501-fbf74653d9e3",
+    "name": "svy_df445b00f2",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, mid thirties, General American accent; neutral timbre.",
+    "created_at": 1760567810
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "You'll also want to make sure that you are imaging in complete darkness because you may have very low photon emission from your luciferase system and any amount of background light can overwhelm your signal with noise.",
+        "description": "Friendly, clear speech. Moderate pace, mild contouring, and organically placed pauses.",
+        "speed": 0.9208892746146524,
+        "trailing_silence": 0.28056761146693476,
+        "voice": {
+          "id": "67a5ce51-e8c0-47a2-9501-fbf74653d9e3"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771273376",
+    "generation_id": "01e9b243-4431-4c9e-ac51-6a6e5b8fddc0",
+    "duration_s": 12.827229,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 205824,
+    "elapsed_sec": 4.449,
+    "model_version": "1",
+    "used_voice": {
+      "id": "67a5ce51-e8c0-47a2-9501-fbf74653d9e3",
+      "name": "svy_df445b00f2",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, mid thirties, General American accent; neutral timbre.",
+      "created_at": 1760567810
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223712_Ziming_positive_86115bb7.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223712_Ziming_positive_86115bb7_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:37:12.541703Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 12.864,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223712_Ziming_positive_86115bb7.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_223712_Ziming_positive_86115bb7_aug.wav"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "session_seed": 434659573,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3262136858,
+    "answer": 854183602
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1374,
+  "answer_text": "I have to agree that k-fold should do \"just\" fine. However, there is a nice article about the \"Bootstrap.632+\" method (basically a smoothened cross validation) that is supposed to be superior (however, they did the comparisons on not-binary data as far as I can tell) Maybe you want to check out this article here:",
+  "instruction_text": "Authentic speech. Minor fillers acceptable; vary rhythm and give phrases room to breathe.",
+  "parameters_text": "female voice, early thirties \u2014 light British Estuary accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 30,
+    "accent": "British Estuary",
+    "features": [
+      "mumbling",
+      "nonconsistent_tempo",
+      "slurred_articulation"
+    ],
+    "style_params": {
+      "rate": 1.048,
+      "pitch_semitones": 0.03,
+      "micro_break_ms": 143,
+      "sentence_break_ms": 569,
+      "intonation_variability": 0.232,
+      "energy_variability": 0.133
+    }
+  },
+  "voice_ref": {
+    "id": "e1511aab-5b42-4fb5-b1f7-9275ceb2a0e0",
+    "name": "svy_2a71892f55",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, early thirties, light British Estuary accent; neutral timbre.",
+    "created_at": 1760567166
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "I have to agree that k-fold should do \"just\" fine. However, there is a nice article about the \"Bootstrap.632+\" method (basically a smoothened cross validation) that is supposed to be superior (however, they did the comparisons on not-binary data as far as I can tell) Maybe you want to check out this article here:",
+        "description": "Authentic speech. Minor fillers acceptable; vary rhythm and give phrases room to breathe.",
+        "speed": 0.9742277727801473,
+        "trailing_silence": 0.23947502303213503,
+        "voice": {
+          "id": "e1511aab-5b42-4fb5-b1f7-9275ceb2a0e0"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11257974",
+    "generation_id": "f275694e-68f2-4e63-875a-b0f3f32ae93a",
+    "duration_s": 20.226125,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 324096,
+    "elapsed_sec": 5.685,
+    "model_version": "1",
+    "used_voice": {
+      "id": "e1511aab-5b42-4fb5-b1f7-9275ceb2a0e0",
+      "name": "svy_2a71892f55",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, early thirties, light British Estuary accent; neutral timbre.",
+      "created_at": 1760567166
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222734_Ziming_positive_db92c813.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222734_Ziming_positive_db92c813_aug.wav"
+  },
+  "created_utc": "2025-10-15T22:27:34.539104Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 434659573,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "noise",
+        "color": 0,
+        "snr_db": 14.24
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 20.256,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222734_Ziming_positive_db92c813.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251015_222734_Ziming_positive_db92c813_aug.wav"
+  }
+}

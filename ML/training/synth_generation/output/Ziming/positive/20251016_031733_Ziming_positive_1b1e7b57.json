@@ -1,0 +1,92 @@
+{
+  "session_seed": 426654490,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3011593919,
+    "answer": 3803389541
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1115,
+  "answer_text": "Usually in logistic regression you'd want \"successes\" to be 1 and \"failures\" to be 0, but so long as you are consistent in how you enter your data and interpret it, the coefficients don't really care.",
+  "instruction_text": "Calm and natural delivery. Keep energy steady but let pitch and timing move a bit.",
+  "parameters_text": "female voice, late twenties \u2014 light Australian accent; natural phrasing.",
+  "priors": {
+    "gender": "female",
+    "age": 27,
+    "accent": "Australian English",
+    "features": [
+      "bright_voice",
+      "coarse_voice",
+      "slurred_articulation"
+    ],
+    "style_params": {
+      "rate": 0.991,
+      "pitch_semitones": 0.66,
+      "micro_break_ms": 150,
+      "sentence_break_ms": 581,
+      "intonation_variability": 0.235,
+      "energy_variability": 0.189
+    }
+  },
+  "voice_ref": {
+    "id": "ce80428d-f6c0-46b2-9319-77a32e22cf52",
+    "name": "svy_b2953cc427",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "female voice, late twenties, light Australian accent; neutral timbre.",
+    "created_at": 1760584633
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "Usually in logistic regression you'd want \"successes\" to be 1 and \"failures\" to be 0, but so long as you are consistent in how you enter your data and interpret it, the coefficients don't really care.",
+        "description": "Calm and natural delivery. Keep energy steady but let pitch and timing move a bit.",
+        "speed": 0.9340064481352193,
+        "trailing_silence": 0.22081637361305026,
+        "voice": {
+          "id": "ce80428d-f6c0-46b2-9319-77a32e22cf52"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771399805",
+    "generation_id": "64464773-1931-4fc4-991d-86a34b2af3b4",
+    "duration_s": 11.685542,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 187392,
+    "elapsed_sec": 4.473,
+    "model_version": "1",
+    "used_voice": {
+      "id": "ce80428d-f6c0-46b2-9319-77a32e22cf52",
+      "name": "svy_b2953cc427",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "female voice, late twenties, light Australian accent; neutral timbre.",
+      "created_at": 1760584633
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031733_Ziming_positive_1b1e7b57.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031733_Ziming_positive_1b1e7b57_aug.wav"
+  },
+  "created_utc": "2025-10-16T03:17:33.628785Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 426654490,
+    "intensity": "low",
+    "applied": [],
+    "sr": 48000,
+    "length_sec": 11.712,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031733_Ziming_positive_1b1e7b57.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_031733_Ziming_positive_1b1e7b57_aug.wav"
+  }
+}

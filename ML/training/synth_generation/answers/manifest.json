@@ -1,0 +1,104 @@
+{
+  "built_at": "2025-10-12 21:48:35",
+  "target": 2000,
+  "actual": 1995,
+  "sites": [
+    "ai.stackexchange.com",
+    "stats.stackexchange.com",
+    "datascience.stackexchange.com",
+    "biology.stackexchange.com",
+    "health.stackexchange.com",
+    "workplace.stackexchange.com",
+    "softwareengineering.stackexchange.com"
+  ],
+  "seed": 1337,
+  "filters": {
+    "min_words": 20,
+    "max_words": 100,
+    "min_score": 1,
+    "drop_urls": true,
+    "drop_code": true,
+    "drop_long_alnum": true,
+    "drop_hexish": true
+  },
+  "stats": [
+    {
+      "site": "ai.stackexchange.com",
+      "scanned": 1484,
+      "answers": 866,
+      "kept": 285
+    },
+    {
+      "site": "workplace.stackexchange.com",
+      "scanned": 1262,
+      "answers": 969,
+      "kept": 285
+    },
+    {
+      "site": "biology.stackexchange.com",
+      "scanned": 1310,
+      "answers": 654,
+      "kept": 285
+    },
+    {
+      "site": "stats.stackexchange.com",
+      "scanned": 872,
+      "answers": 660,
+      "kept": 285
+    },
+    {
+      "site": "datascience.stackexchange.com",
+      "scanned": 1042,
+      "answers": 669,
+      "kept": 285
+    },
+    {
+      "site": "softwareengineering.stackexchange.com",
+      "scanned": 682,
+      "answers": 571,
+      "kept": 285
+    },
+    {
+      "site": "health.stackexchange.com",
+      "scanned": 3091,
+      "answers": 1309,
+      "kept": 285
+    },
+    {
+      "site": "ai.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "workplace.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "biology.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "stats.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "datascience.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "softwareengineering.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    },
+    {
+      "site": "health.stackexchange.com",
+      "kept": 0,
+      "pass": 2
+    }
+  ],
+  "license_note": "Stack Exchange user content is CC BY-SA; attribution stored per item (site, ids, URL)."
+}

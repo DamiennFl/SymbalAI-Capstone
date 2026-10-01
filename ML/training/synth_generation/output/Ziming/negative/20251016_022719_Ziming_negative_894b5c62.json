@@ -1,0 +1,103 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 2209492185,
+    "answer": 3063928409
+  },
+  "user": "Ziming",
+  "label": "negative",
+  "answer_index": 1794,
+  "answer_text": "When the body is exposed to hot temperatures, the normal response of the body is dilation of the peripheral blood vessels so that the heat energy in the blood can be released into the external environment, increasing the rate at which the body cools down. This dilatation also leads to decreased peripheral vascular resistance (blood pooling in the extremities, for instance), and thus a decrease in blood pressure. Thus if one already suffers from low blood pressure, exposure to hot environments may temporarily exacerbate the problem.",
+  "instruction_text": "Scripted cadence. Predictable breaks, monotone energy, and tight, constant rhythm.",
+  "parameters_text": "male voice, early twenties \u2014 General American accent; flat delivery.",
+  "priors": {
+    "gender": "male",
+    "age": 25,
+    "accent": "General American (no marked accent)",
+    "features": [
+      "breathy",
+      "deep_voice",
+      "fast_voice"
+    ],
+    "style_params": {
+      "rate": 1.166,
+      "pitch_semitones": -1.68,
+      "micro_break_ms": 114,
+      "sentence_break_ms": 645,
+      "intonation_variability": 0.116,
+      "energy_variability": 0.053
+    }
+  },
+  "voice_ref": {
+    "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+    "name": "svy_0038ae2a7c",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+    "created_at": 1760580583
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "When the body is exposed to hot temperatures, the normal response of the body is dilation of the peripheral blood vessels so that the heat energy in the blood can be released into the external environment, increasing the rate at which the body cools down. This dilatation also leads to decreased peripheral vascular resistance (blood pooling in the extremities, for instance), and thus a decrease in blood pressure. Thus if one already suffers from low blood pressure, exposure to hot environments may temporarily exacerbate the problem.",
+        "description": "Scripted cadence. Predictable breaks, monotone energy, and tight, constant rhythm.",
+        "speed": 1.3881943260357978,
+        "trailing_silence": 0.02570985417552183,
+        "voice": {
+          "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "a111ab6c-0d4e-4de9-acf7-4ed29b26c9c11359697",
+    "generation_id": "e78515d4-9fa3-46ca-94bd-b9da795abc6a",
+    "duration_s": 23.732375,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 380160,
+    "elapsed_sec": 6.341,
+    "model_version": "1",
+    "used_voice": {
+      "id": "332dbd69-75b7-4ad7-b8d8-20d4d85366f6",
+      "name": "svy_0038ae2a7c",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, early twenties, General American accent; neutral timbre.",
+      "created_at": 1760580583
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022719_Ziming_negative_894b5c62.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022719_Ziming_negative_894b5c62_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:27:19.151790Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 23.76,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022719_Ziming_negative_894b5c62.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\negative\\20251016_022719_Ziming_negative_894b5c62_aug.wav"
+  }
+}

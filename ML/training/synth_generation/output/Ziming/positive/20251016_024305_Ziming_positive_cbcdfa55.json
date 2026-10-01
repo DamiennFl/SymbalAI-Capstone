@@ -1,0 +1,101 @@
+{
+  "session_seed": 56461227,
+  "seeds": {
+    "parameters": null,
+    "instruction": 3624640435,
+    "answer": 4087645738
+  },
+  "user": "Ziming",
+  "label": "positive",
+  "answer_index": 1737,
+  "answer_text": "As I mentioned in, icing is not meant to heal tendinopathy. It is supposed to be a painkiller. It can have some effects that may feel like they are fixing the problem though. The cold ice forces blood vessels to contract which can help reduce the inflammation. This might be considered healing, but the tendinopathy is still there, until the tendon heals itself.",
+  "instruction_text": "Human, thoughtful answer. Allow slight imperfection; shape phrases and vary timing.",
+  "parameters_text": "male voice, late twenties \u2014 light New York accent; natural phrasing.",
+  "priors": {
+    "gender": "male",
+    "age": 28,
+    "accent": "US New York",
+    "features": [
+      "deep_voice"
+    ],
+    "style_params": {
+      "rate": 0.994,
+      "pitch_semitones": 0.54,
+      "micro_break_ms": 135,
+      "sentence_break_ms": 386,
+      "intonation_variability": 0.273,
+      "energy_variability": 0.173
+    }
+  },
+  "voice_ref": {
+    "id": "973e0897-c65e-4a65-8f35-5e6453882704",
+    "name": "svy_9603d7c508",
+    "provider": "CUSTOM_VOICE",
+    "identity_prompt": "male voice, late twenties, light New York accent; neutral timbre.",
+    "created_at": 1760582551
+  },
+  "hume_payload": {
+    "version": "1",
+    "utterances": [
+      {
+        "text": "As I mentioned in, icing is not meant to heal tendinopathy. It is supposed to be a painkiller. It can have some effects that may feel like they are fixing the problem though. The cold ice forces blood vessels to contract which can help reduce the inflammation. This might be considered healing, but the tendinopathy is still there, until the tendon heals itself.",
+        "description": "Human, thoughtful answer. Allow slight imperfection; shape phrases and vary timing.",
+        "speed": 1.0347960113368828,
+        "trailing_silence": 0.22555283560988873,
+        "voice": {
+          "id": "973e0897-c65e-4a65-8f35-5e6453882704"
+        }
+      }
+    ],
+    "format": {
+      "type": "mp3"
+    },
+    "num_generations": 1,
+    "split_utterances": false
+  },
+  "hume_response": {
+    "request_id": "e8034788-5c1b-48e9-9c32-3943859f45771386395",
+    "generation_id": "0fec3bf2-6caf-4582-841a-a1e8f3c6ae18",
+    "duration_s": 20.892146,
+    "encoding": {
+      "format": "mp3",
+      "sample_rate": 48000
+    },
+    "file_size": 334848,
+    "elapsed_sec": 5.555,
+    "model_version": "1",
+    "used_voice": {
+      "id": "973e0897-c65e-4a65-8f35-5e6453882704",
+      "name": "svy_9603d7c508",
+      "provider": "CUSTOM_VOICE",
+      "identity_prompt": "male voice, late twenties, light New York accent; neutral timbre.",
+      "created_at": 1760582551
+    }
+  },
+  "paths": {
+    "mp3": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024305_Ziming_positive_cbcdfa55.mp3",
+    "aug_wav": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024305_Ziming_positive_cbcdfa55_aug.wav"
+  },
+  "created_utc": "2025-10-16T02:43:05.467393Z",
+  "version": "synth_gui_structured_v1",
+  "augmentation": {
+    "seed": 56461227,
+    "intensity": "med",
+    "applied": [
+      {
+        "effect": "reverb",
+        "wet": 0.256,
+        "rir": "synthetic_0.47s"
+      },
+      {
+        "effect": "noise",
+        "color": 1,
+        "snr_db": 20.14
+      }
+    ],
+    "sr": 48000,
+    "length_sec": 20.928,
+    "input_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024305_Ziming_positive_cbcdfa55.mp3",
+    "output_path": "C:\\Users\\Zmfu1\\Desktop\\CptS421\\SymbalAI\\ML\\training\\synth_generation\\output\\Ziming\\positive\\20251016_024305_Ziming_positive_cbcdfa55_aug.wav"
+  }
+}
