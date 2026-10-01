@@ -36,9 +36,6 @@ The most convenient way to install and use our current implementation is to navi
 Additionally, if this is done on the Branch-A-Improvements-API-Integration branch, then it will spin up the API and also the Branch A implementation which can be 
 used to transcribe and produce a confidence score, although this additionally requires [CUDA 12.2.x from Nvidia](https://developer.nvidia.com/cuda-12-2-2-download-archive) to run locally.
 
-## Additional Documentation
-
-\[Helpful Resources](https://github.com/vsevolod-kovalev/SymbalAI/tree/master/resources)
 
 ## License
 
